@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>PAGE | YOMIGO</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ng_responsive_tables.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header_left">
+                <a href="index.html" class="logo_img"><img src="img/yomigo_logo.png" alt="" /></a> <a href="javascript:void(0);" class="nav_menu_text">MERCHANTS</a>
+                <a class="toggle_menu"> <span></span> <span></span> <span></span> </a>
+            </div>
+            <div class="header_right">
+                <ul>
+                    <li> <a href="javascript:void(0);">MERCHANTS</a> </li>
+                    <li> <a href="javascript:void(0);">SIGN UP</a> </li>
+                    <li class="login">
+                        <a href="javascrit:void(0);" class="h_btn_login" data-toggle="modal" data-target="#exampleModal">log Out</a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Modal Open Windows -->
+
+    <!-- Top content -->
+
+    <div class="top-content">
+        <div class="container">
+            <div class="form-box">
+                <fieldset class="step-5">
+                    <div class="row">
+                        <div class="payment-status-table">
+                            <div class="col-sm-4">
+                                <div class="esc_product">
+                                    <div class="esc_pro_merchant_details">
+                                        <div class="merchant_detail_img"><img src="img/scrnshot_1.png" alt="" class="img-responsive"></div>
+                                        <div class="merchant_detail_desc">
+                                            <p>Merchant:</p>
+                                            <h3>UNREAL ESCAPES STATEN ISLAND</h3>
+                                        </div>
+                                    </div>
+                                    <div class="esc_pro_details">
+                                        <div class="pro_details">
+                                            <div class="merchant_detail_img"><img src="img/note_icon.png" alt="" class="img-responsive"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Game:</p>
+                                                <h3 id="booking_details">Battleship</h3>
+                                            </div>
+                                        </div>
+                                        <div class="pro_details">
+                                            <div class="merchant_detail_img"><img src="img/calender_icon.png" alt="" class="img-responsive"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Booking Date:</p>
+                                                <h3>APRIL 12, 2019</h3>
+                                            </div>
+                                        </div>
+                                        <div class="pro_details">
+                                            <div class="merchant_detail_img"><img src="img/clock_icon.png" alt="" class="img-responsive"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Booking Time:</p>
+                                                <h3>3:00pm</h3>
+                                            </div>
+                                        </div>
+                                        <div class="pro_details">
+                                            <div class="merchant_detail_img"><img src="img/user-icon.png" alt="" class="img-responsive"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Room Size:</p>
+                                                <h3>1 TO 9 PEOPLE</h3>
+                                            </div>
+                                        </div>
+                                        <div class="pro_details">
+                                            <div class="merchant_detail_img"><img src="img/coin_icon.png" alt="" class="img-responsive"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Booking Total</p>
+                                                <h3>$293.34</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 display_right">
+                                <div class="page_title">
+                                    <div class="page_title_content">
+                                        <h1>PAYMENT COMPLETE!</h1>
+                                        <p>Thanks for using Yomigo, Shahryar.<br>The receipt and the group purchase details have been emailed to you.</p>
+                                    </div>
+                                </div>
+                                <div class="table-bg-ymigo table_scroll_ymi">
+                                    <table class="payment-table responsive" id="transaction-table-Fields">
+                                        <tbody>
+                                            <tr>
+                                                <th>Transaction Number</th>
+                                                <th>Date</th>
+                                                <th>Merchant</th>
+                                                <th>Amount</th>
+                                            </tr>
+                                            <tr>
+                                                <td data-content="Transaction Number" class="tdno0"><div class="td-text">Nscwm8jr</div></td>
+                                                <td data-content="Date" class="tdno1"><div class="td-text">04/12/2019</div></td>
+                                                <td data-content="Merchant" class="tdno2"><div class="td-text">Unreal Escapes Staten Island</div></td>
+                                                <td data-content="Amount" class="tdno3"><div class="td-text">$146.67</div></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-bg-ymigo tbl-payment-ymingo">
+                                    <div class="table_scroll_ymi">
+                                        <table class="payment-table responsive" id="paymentFields">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Due</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                                <tr>
+                                                    <td data-content="Name" class="tdno0"><div class="td-text">Naresh Kosgi</div></td>
+                                                    <td data-content="Due" class="tdno1"><div class="td-text">$146.67</div></td>
+                                                    <td class="paid-staus tdno2" data-content="Status"><div class="td-text"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Paid</div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-content="Name" class="tdno0"><div class="td-text">Naresh Kosgi</div></td>
+                                                    <td data-content="Due" class="tdno1"><div class="td-text">$146.67</div></td>
+                                                    <td class="waiting-staus tdno2" data-content="Status"><div class="td-text"><i class="fa fa-circle-thin" aria-hidden="true"></i>Waiting</div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-content="Name" class="tdno0"><div class="td-text">Naresh Kosgi</div></td>
+                                                    <td data-content="Due" class="tdno1"><div class="td-text">$146.67</div></td>
+                                                    <td class="waiting-staus tdno2" data-content="Status"><div class="td-text"><i class="fa fa-circle-thin" aria-hidden="true"></i>Waiting</div></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="payment-extra-description">
+                                        <div class="payment-details-desc payment-without-login-desc">
+                                            <!--<p>Thanks, your group members have been emailed details…</p>-->
+                                            <p><span>Please Note:</span> Any unpaid amount of this booking will be charged to Naresh's card after the event on April 12, 2019.</p>
+                                        </div>
+                                       
+                                        <div class="login-form-befor-payment">
+                                            <form class="" action="/payment/review-payment/2283/" method="post">
+                                                <input type="hidden" name="csrfmiddlewaretoken" value="e5zpN0SYWV1cUhui1NmK6yNwJBxBHOkyjtnNYgWSjQw7qaJsYnq6DVkMj7gRCXss">
+                                                <h4>Sign in</h4>
+                                                <div class="form-group">
+                                                    <label class="form_label">Email<span>*</span></label>
+                                                    <input type="email" name="email" class="form-control control" value="naresh@yomigo.com">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form_label">Password<span>*</span></label>
+                                                    <input type="password" name="password" class="form-control control">
+                                                </div>
+                                                <div class="form-group btn_grp f1-buttons">
+                                                    <button class="btn_login btn">Login</button>
+                                                    <a href="/auth/password-recovery" class="forgot_pwd_link">Forgot Password?</a>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                    <!--                            <div class="f1-buttons">
+                                                    <button type="button" class="btn btn-previous">Previous</button>
+                                                    <button type="submit" class="btn btn-submit">Submit</button>
+                                                </div>-->
+                </fieldset>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="right_footer">2018 © All right reserved.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 text-center">
+                    <i class="fa fa-facebook-f" style="margin-right:12px;"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="footer_terms">
+                        <a>FAQ |</a>
+                        <a>About Us |</a>
+                        <a>Contact Us |</a>
+                        <a>Privacy Policy |</a>
+                        <a>Terms Of Service </a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Login -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:100px; padding-right:0px !important;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title log_in_title" id="myModalLabel">Login to your Yomigo account</h4>
+                </div>
+
+
+                <div class="modal-body log_in">
+                    <form class="">
+                        <div class="form_content">
+                            <div class="form-group">
+                                <label class="form_label_log_in">Email<span>*</span></label>
+                                <input type="email" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Password<span>*</span></label>
+                                <input type="password" class="form-control control">
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="coustom_cb" id="c50_cb1">
+                                <label class="form_label_log_in lable_border" for="c50_cb1">Keep me logged in</label>
+                            </div>
+                            <div class="form-group btn_grp">
+                                <button class="btn_login">Login</button>
+                                <!--<button class="btn_register" data-toggle="modal" data-target="#exampleModal1">register</button>-->
+
+                                <a href="javascript:void(0);" class="forgot_pwd_link">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/ng_responsive_tables.js" type="text/javascript"></script>
+    <script src="js/jquery.backstretch.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+
+
+
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+            $('.toggle_menu').click(function () {
+                $('.header_right').slideToggle();
+            });
+            //$('.coltoggle').nextUntil('tr.coltoggle').slideToggle(100, function () {
+            //});
+            $('#myModal').modal('show');
+
+            $('.addCF-split').on('click', function () {
+                $('.btn_edit').css('display', 'none');
+                $('.btn_back').css('display', 'block');
+                $('.btn_checkout_done').css('display', 'block');
+                //  $('.see_all_view').css('display', 'none');
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'block');
+                    $('.cl4').css('display', 'block');
+                    $('.cl5').css('display', 'block');
+                    $('.taxspan').css('display', 'block');
+                    $('.resclosetd').remove();
+                    $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+                    $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose"></a></td>');
+                }
+                else {
+                    $('.resclosetd').remove();
+                }
+            });
+
+            $('.btn-no_pop').on('click', function () {
+                $('#myModal').modal('hide');
+                $('.table-extra-content').css('display', 'none');
+                $('#checkout_payment').css('display', 'block');
+                $('.btn_edit').css('display', 'block');
+                $('.btn_back').css('display', 'none');
+                $('.btn_checkout_done').css('display', 'none');
+                $('.see_less_view').css('display', 'none');
+                $('.see_all_view').css('display', 'none');
+                $('#table_scroll_ymi .trusplit-table').removeClass('responsive');
+                $('.trusplit-table.responsive').css('display', 'none');
+                goToByScroll('checkout_payment');
+
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'none');
+                    $('.cl4').css('display', 'none');
+                    $('.cl5').css('display', 'none');
+                    $('.taxspan').css('display', 'none');
+                }
+            });
+
+            $('.btn-yes_pop').on('click', function () {
+                $('#myModal').modal('hide');
+                $('#checkout_payment').css('display', 'none');
+                $('.see_less_view').css('display', 'none');
+                $('.see_all_view').css('display', 'none');
+                $('.btn_edit').css('display', 'none');
+                $('.btn_back').css('display', 'block');
+                $('.btn_checkout_done').css('display', 'block');
+                $('.table-extra-content').css('display', 'block');
+                $('.labletext').css('display', 'none');
+                $('.ammount').css('display', 'block');
+                $('.trusplit-table.responsive').css('display', 'inline-table');
+                goToByScroll('table_scroll_ymi');
+                $('#table_scroll_ymi .trusplit-table').addClass('responsive');
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'block');
+                    $('.cl4').css('display', 'block');
+                    $('.cl5').css('display', 'block');
+                    $('.taxspan').css('display', 'block');
+                    $('.resclosetd').remove();
+                    $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+                    $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose"></a></td>');
+                }
+                else {
+                    $('.resclosetd').remove();
+                }
+            });
+
+            $('.btn_checkout_done').on('click', function () {
+                $('.textboxrow').css('display', 'none');
+                $('#checkout_payment').css('display', 'block');
+                $('.btn_edit').css('display', 'block');
+                $('.btn_back').css('display', 'none');
+                $('.btn_checkout_done').css('display', 'none');
+                $('.table-extra-content').css('display', 'none');
+                goToByScroll('table_scroll_ymi');
+                $('#table_scroll_ymi .trusplit-table').removeClass('responsive');
+
+                if ($('#table_scroll_ymi .trusplit-table .coltoggle:visible').length == 0) {
+                    $('.trusplitbody').append('<tr class="add_tr coltoggle"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /> </td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+
+                }
+                else {
+                    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                }
+                $('.labletext').css('display', 'block');
+
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'none');
+                    $('.cl4').css('display', 'none');
+                    $('.cl5').css('display', 'none');
+                    $('.taxspan').css('display', 'none');
+                    $('.resclosetd').remove();
+
+                }
+
+                $('.splitinput').css('display', 'none');
+                $('.remCF').css('display', 'none');
+
+                $('.see_all_view').css('display', 'block');
+                $('.coltoggle').nextUntil('tr.coltoggle').slideToggle(100, function () {
+                });
+                $('.trusplit-table').css('display', 'inline-table');
+
+            });
+            $('.btn_edit').on('click', function () {
+                if ($('.see_all_view:visible').length == 0) {
+                }
+                else {
+                    $('.coltoggle').nextUntil('tr.coltoggle').slideToggle(100, function () {
+                    });
+                }
+                $('.table-extra-content').css('display', 'block');
+                $('#checkout_payment').css('display', 'none');
+                $('.btn_checkout_done').css('display', 'block');
+                $('.btn_edit').css('display', 'none');
+                $('.btn_back').css('display', 'block');
+                $('.trusplit-table.responsive').css('display', 'inline-table');
+                $('.textboxrow').css('display', 'block');
+                $('.labletext').css('display', 'none');
+                $('.splitinput').css('display', 'block');
+                $('.see_less_view').css('display', 'none');
+                $('.see_all_view').css('display', 'none');
+                $('.remCF').css('display', 'unset');
+                $('#table_scroll_ymi .trusplit-table').addClass('responsive');
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'block');
+                    $('.cl4').css('display', 'block');
+                    $('.cl5').css('display', 'block');
+                    $('.taxspan').css('display', 'block');
+                    $('.remCF').css('display', 'none');
+                    $('.resclose').css('display', 'unset');
+                    $('.resclosetd').remove();
+                    $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+                    $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+                }
+                else {
+                    $('.resclosetd').remove();
+                }
+            });
+        });
+
+        function goToByScroll(id) {
+            // Remove "link" from the ID
+            id = id.replace("link", "");
+            // Scroll
+            $('html,body').animate({
+                scrollTop: $("#" + id).offset().top - 150
+            }, 'slow');
+        }
+    </script>
+
+</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,160 @@
+
+
+@media screen and (max-width: 1199px)
+{
+
+    .book-info-content { width: 645px;}
+    .book-now-info h3 {font-size: 22px;  margin-bottom: 3px;}
+    .book-now-info p {line-height: 1.2;}
+    .map-info .venu-hours-info div.day {  width: 138px;}
+    .map-info h4 { font-size: 24px;  width: 265px;}
+    .banner-top-yamigo .banner-content h3 { font-size: 42px; margin-bottom: 5px;}
+    .banner-top-yamigo .banner-content p { font-size: 26px;}
+
+    .date-time-yamingo-table .date-time-table-data:nth-child(2n), .date-time-yamingo-table .date-time-table-title:nth-child(2n) { width: 545px;}
+    .date-time-yamingo-table .date-time-table-data:nth-child(4n-1), .date-time-yamingo-table .date-time-table-title:nth-child(4n-1)
+    ,.date-time-yamingo-table .date-time-table-data:first-child, .date-time-yamingo-table .date-time-table-title:first-child { width: 80px;}
+    .date-time-yamingo-table .date-time-table-data:nth-child(4n), .date-time-yamingo-table .date-time-table-title:nth-child(4n) {  width: 65px;}
+    .date-time-yamingo-table .date-time-table-data:nth-child(5n), .date-time-yamingo-table .date-time-table-title:nth-child(5n) { width: 128px;}
+    .date-time-table-data a.info_link {  margin-right: 5px;}
+
+    .contact-section h3 { font-size: 28px; }
+
+    .activity-yamingo-table .activity-table-data:first-child{ width: 100%; margin-bottom: 10px;}
+
+    .date-time-table-data a.book_link,.date-time-table-data a.info_link {  padding: 4px 8px;  }
+    .contact-section .contct-btn-right button{padding: 9px 20px;font-size:16px;}
+
+}/*----end of 1199----*/
+
+@media screen and (max-width: 991px)
+{
+    .menu .nav li a { padding-left: 13px; padding-right: 13px; font-size: 16px;}
+    .logo a {  font-size: 26px;}
+    .book-info-content { width: 415px;}
+    .book-now-info p { font-size: 15px;}
+    .book-now-info h3 { font-size: 18px;}
+    .book-now-info .map-purchse-btn { margin-top: 20px;}
+    .book-now-info a {   font-size: 16px;}
+
+    .map-info h4 {  font-size: 22px;  width: 90%;  margin: auto; text-align: center;}
+    .venu-hours-info{margin: auto;  display: table; text-align: center;}
+    .map-info .venu-hours-info div.day,.map-info .venu-hours-info div.time { width: 48%;}
+    .banner-top-yamigo .banner-content h3 { font-size: 36px; margin-bottom: 3px;}
+    .banner-top-yamigo .banner-content p { font-size: 24px;}
+    .banner-top-yamigo { min-height: 480px;}
+    .banner-top-yamigo .banner-content {   padding-top: 30px;}
+    .banner-content img {  margin: 15px auto;display: table; width: 500px;}
+
+    .about-section p { line-height: 1.5;}
+    .title-page {  font-size: 28px; margin-bottom: 15px;}
+    .about-section {  padding-top: 30px;  padding-bottom: 20px;}
+
+    .date-time-yamingo-table .date-time-table-data { padding: 10px 10px; height: 60px;}
+    .date-time-yamingo-table .date-time-table-data:nth-child(2n), .date-time-yamingo-table .date-time-table-title:nth-child(2n) { width: 325px;}
+    .date-time-yamingo-table .date-time-table-data:nth-child(4n), .date-time-yamingo-table .date-time-table-title:nth-child(4n) {  width: 65px;}
+    .table-scroll   {  overflow-x: scroll; }
+    .activity-yamingo-table .book-activity { width: 100%; padding-right: 25px;}
+    .book-yamingo-section {  padding-top: 50px; padding-bottom: 50px;}
+    .contact-section h3 { font-size: 26px;  margin-bottom: 25px;}
+    .contact-section {  padding-top: 40px;  padding-bottom: 60px;}
+    .about-title {  margin-bottom: 20px;}
+    .conatct-title {margin-bottom: 30px;}
+    .faqs-title { margin-bottom: 25px;}
+    .faqs-section { padding-top: 40px;  padding-bottom: 30px;}
+
+}/*----end of 991----*/
+
+@media screen and (max-width: 767px)
+{
+    .menu { float: none; text-align: center;  width: 100%; padding: 0; margin: auto;}
+    .menu .navbar-nav {  position: absolute;  width: 100%; background: #fff;  z-index: 999; margin: auto;  display: table;}
+    .menu .navbar-default {  position: absolute;   width: 95%; }
+
+    .menu .nav li a {font-size: 15px;padding: 10px 0px;}
+
+    .book-info-content { width: 100%;  text-align: center; margin: 15px auto;}
+    .img-map-info {  width: 100%; margin: 0px auto; display: table; text-align: center;}
+    .book-now-btn button {  font-size: 22px;}
+    .book-now-btn { margin: 15px auto;}
+    .book-now-section {  padding-top: 30px; padding-bottom: 30px;}
+    .banner-top-yamigo { min-height: 300px;}
+    .banner-top-yamigo .banner-content h3 { font-size: 30px;}
+    .banner-top-yamigo .banner-content p { font-size: 22px;}
+    .logo a { text-align: center; margin: auto;  display: table;}
+    .img-map-info img{  width: 200px;}
+    .map-info-bg { padding: 20px 0px;}
+
+    .navbar-toggle {  margin-top: -36px;}
+    .banner-top-yamigo .banner-content {   padding-top: 30px;}
+    .banner-content img {  margin: 15px auto;display: table; width: 400px;}
+
+    .title-page { font-size: 26px;}
+    .about-section p {  line-height: 1.5;  text-align: center; margin-bottom: 15px;}
+
+    .date-time-yamingo-table { width: 680px;}
+    .table-title-activity ,.book-event-title h4{ text-align: center; font-size: 16px;}
+    .book-yamingo-section {  padding-top:30px; padding-bottom: 30px;}
+    .contact-section h3 { font-size: 24px;  margin-bottom: 20px;}
+    .contact-section {  padding-top: 30px;  padding-bottom: 45px;}
+    .contct-btn-right { float: none;margin: 10px auto; display: table;}
+    .book-yamigo-border { padding-bottom: 0px;}
+
+}/*----end of 767----*/
+
+@media screen and (max-width: 568px)
+{
+    .banner-top-yamigo .banner-content h3 { font-size: 26px;}
+    .banner-top-yamigo .banner-content p { font-size: 18px;}
+    .banner-top-yamigo {min-height: 225px;}
+    .book-now-btn button { font-size: 18px; padding: 9px 15px;}
+    .map-info .venu-hours-info div { font-size: 16px;}
+    .map-info h4 { font-size: 20px;}
+    .map-info .venu-hours-info div.day { padding-top: 12px;}
+    .footer_bottom {  padding: 15px 0;}
+    .title-page {font-size: 24px;}
+    .contact-section h3 {font-size: 22px;}
+    .contact-section .contct-form-book input {  margin-bottom: 12px;   padding: 8px 8px;}
+    .contact-section .contct-form-book .text-area-contact { min-height: 85px; padding: 8px 8px;}
+
+    .about-title { margin-bottom: 15px;}  
+    .conatct-title { margin-bottom: 20px;}
+
+    .faqs-content p { padding: 15px 15px; line-height: 1.5;}
+    .faqs-content-title h4 { font-size: 15px; padding: 10px 15px;}
+
+}/*----end of 568----*/
+
+@media screen and (max-width: 480px)
+{
+
+    .img-map-info img{  width: 150px;}
+    .book-now-btn button { font-size: 16px;}
+    .map-info {  margin-top: 20px;}
+    .navbar-toggle .icon-bar {width: 18px; height: 1px;}
+    .navbar-toggle {margin-top: -33px; padding: 8px 8px;}
+    .banner-top-yamigo .banner-content h3 {  font-size: 24px;}
+    .about-section p {font-size: 15px;}
+    .atitle-page {font-size: 22px;}
+    .title-page { font-size: 22px;}
+
+    .faqs-title { margin-bottom: 15px;}
+
+    .faqs-section { padding-top: 30px; padding-bottom: 20px;}
+    .activity-yamingo-table .activity-table-data input {  width: 135px;}
+
+}/*----end of 480----*/
+
+@media screen and (max-width: 360px)
+{
+    .book-now-info a { font-size: 14px;}
+    .banner-top-yamigo .banner-content p {  font-size: 16px;}
+    .logo a { font-size: 24px;}
+    .map-info h4 {font-size: 18px;}
+    .map-info .venu-hours-info div {  font-size: 14px;}
+}/*----end of 360----*/
+
+@media screen and (max-width: 320px)
+{
+
+}/*----end of 320----*/

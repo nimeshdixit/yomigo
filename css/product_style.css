@@ -1,0 +1,728 @@
+body{  margin: 0;font-weight: normal;}
+h1, h2, h3, h4, h5, h6, p{ font-weight: normal;margin: 0;}
+img { max-width: 100%;height: auto; outline: 0px; border: 0px;}
+a,a:focus,a:hover{text-decoration: none;outline: none;font-weight: normal;}
+input[type="text"],input[type="email"], input[type="search"], textarea, select {font-weight: normal; outline: none;-webkit-appearance: none;
+                                                                                -moz-appearance: none; -ms-appearance: none; box-shadow: none; border-radius: 4px;}
+
+input[type="text"]:focus{outline: none;font-weight: normal;}
+
+input[type="submit"], button{font-weight: normal; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;
+                             box-shadow: none; border: 0px;outline: none;}
+
+button:focus{outline: none;border: 0;font-weight: normal;}
+
+input::-ms-clear, input::-ms-reveal,select::-ms-expand {display: none;}
+
+label,th,td{font-weight: normal;}
+/*----------------landing-page----------------------*/
+
+/*----------header css start--------------*/
+
+.header_main
+{
+    border-top: 6px solid #59b795;
+    padding-top: 30px;
+    padding-bottom: 21px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 6px #dbdbdb;
+}
+.logo a
+{
+    font-family: 'RobotoBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #323232;
+    text-transform: uppercase;
+}
+
+.menu
+{
+    float: right;
+}
+#myNavbar
+{
+    padding: 0;
+    margin: 0;
+}
+.menu .navbar-default
+{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+.menu ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li a
+{
+    color: #545454;
+    font-size: 18px;
+    font-family: 'Roboto-Regular';
+    text-transform: uppercase;
+    padding-left: 36px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 11px;
+}
+.menu .navbar-default .navbar-nav > .active > a, .menu .navbar-default .navbar-nav > .active > a:hover,
+.menu .navbar-default .navbar-nav > .active > a:focus, .menu .nav li a:hover, .menu .nav li a:focus
+{
+    background-color: transparent;
+    color: #59b795;
+}
+.menu ul li.user-name-header a
+{
+    color: #59b795;
+}
+
+/*----------header css end-------------*/
+
+/*-----------section css start-----------*/
+
+.banner-top-yamigo
+{
+    z-index: -1;
+}
+.banner-top-yamigo .banner-content
+{
+    padding-top: 50px;
+    margin: auto;
+    display: table;
+}
+.banner-content img
+{
+    margin: 22px auto;
+    display: table;
+}
+.banner-top-yamigo .banner-content h3
+{
+    color: #545454;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-family: 'RobotoBold';
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 9px;
+}
+.banner-top-yamigo .banner-content p
+{
+    color: #545454;
+    margin: 0;
+    text-align: center;
+    text-transform: none;
+    font-size: 34px;
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+}
+.book-now-section
+{
+    padding-top: 59px;
+    padding-bottom: 72px;
+}
+.book-now-cat-bg
+{
+    border: #e3e3e3 1px solid;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.book-now-info
+{
+    padding: 15px 15px;
+}
+.book-now-cat-bg
+{
+    margin-bottom: 19px;
+}
+.book-now-cat-bg:nth-child(2n) {
+    background: #f9f9f9;
+}
+.book-now-info h3{
+    margin: 0;
+    color: #545454;
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 9px;
+
+}
+.book-now-info p{
+    margin: 0;
+    color: #545454;
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.book-now-info a
+{
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #59b795;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 22px;
+}
+.book-now-info .map-purchse-btn
+{
+    margin-top: 28px;
+}
+.book-now-btn
+{
+    margin: 35px auto;
+    display: table;   
+}
+.book-now-btn button
+{
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #59b795;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 9px 34px;
+    letter-spacing: 0.4px;
+}
+.map-info
+{
+    background: #59b795;
+    margin-top: 35px;
+}
+.map-info h4
+{
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: #fff 1px solid;
+    padding-bottom: 10px;
+    width: 330px;
+}
+.map-info .venu-hours-info div
+{
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.map-info .venu-hours-info div.day
+{
+    width: 206px;
+    display: inline-block;
+    padding-top: 16px;
+}
+.map-info .venu-hours-info div.time
+{
+    width: 150px;
+    display: inline-block;
+}
+.img-map-info,.book-info-content
+{
+    float: left;
+    padding: 0px 15px;
+}
+.img-map-info
+{
+    width: 290px;
+}
+.book-info-content
+{
+    width: 800px;
+}
+.map-info-bg
+{
+    padding: 46px 0px;
+}
+.map-info iframe
+{
+    border: 0;
+    width: 100%;
+    height: 431px;
+    margin-bottom: -5px;
+}
+/*-----------section css end------------*/
+
+
+
+
+/*-----------footer css start-------------*/
+
+.footer_bottom
+{
+    background-color: #000000;
+    padding: 24px 0;
+}
+.footer_bottom p
+{
+    text-align: center;
+    font-size: 16px;
+    color: #ababab;
+    font-family: 'Roboto-Regular';
+    text-transform: capitalize;
+}
+
+/*--------------footer css end--------*/
+
+/*--------------about-us css start--------*/
+.about-section 
+{
+    padding-top: 64px;
+    padding-bottom: 47px;
+}
+.title-page
+{
+    color: #323232;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'RobotoMedium';
+    text-transform: uppercase;
+
+}
+.about-title{
+    margin-bottom: 36px;
+}
+
+.about-section p
+{
+    color: #545454;
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+    line-height: 1.9;
+    letter-spacing: 0.1px;
+    margin-bottom: 18px;
+}
+
+/*--------------about-us css end--------*/
+
+
+/*--------------book css end--------*/
+
+
+.book-yamingo-section
+{
+    padding-top: 70px;
+    padding-bottom: 72px;
+}
+.book-yamigo-border
+{
+    border:  #dbdbdb 1px solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding-bottom: 72px;
+}
+.book-event-title{
+    background: #f8f8f8;
+    border-bottom:  #dbdbdb 1px solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 15px 20px;
+}
+.book-event-title h4{
+    color: #323232;
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.activity-yamingo-table .activity-table-title,.activity-yamingo-table .activity-table-data
+{
+    display: inline-block;
+    float: left;
+}
+.activity-yamingo-table{
+    padding: 15px 19px;
+}
+.activity-yamingo-table .activity-table-data input
+{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    padding: 10px 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: #dedede 1px solid;
+    outline: none;
+    width: 150px;
+}
+.activity-yamingo-table .activity-table-data input::-webkit-input-placeholder,.activity-yamingo-table .book-activity::-webkit-input-placeholder {
+    color: #8c8c8c;
+}
+
+.activity-yamingo-table .activity-table-data input:-moz-placeholder,.activity-yamingo-table .book-activity:-moz-placeholder  { 
+    color: #8c8c8c;
+}
+
+.activity-yamingo-table .activity-table-data input::-moz-placeholder,.activity-yamingo-table .book-activity::-moz-placeholder {  
+    color: #8c8c8c; 
+}
+
+.activity-yamingo-table .activity-table-data input:-ms-input-placeholder,.activity-yamingo-table .book-activity:-ms-input-placeholder {  
+    color: #8c8c8c; 
+}
+.activity-yamingo-table .book-activity
+{
+    content: '';
+    background-image: url(../images/slect-drop.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    width: 575px;
+    padding: 10px 13px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: #dedede 1px solid;
+    outline: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+}
+.activity-yamingo-table .activity-table-data input.adults-number{
+    width: 84px;
+}
+.date-activity
+{
+    content: '';
+    background-image: url(../images/calander-icon.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+input.adults-number[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+
+input.adults-number[type=number]:hover::-webkit-inner-spin-button { 
+    background: #fff url('../images/number-drop.png') no-repeat 100% 50%;  
+    width: 8px;
+    height: 10px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 28px;
+}
+.activity-yamingo-table .activity-table-title{
+    color: #545454; 
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    display: block;
+    height: 23px;
+}
+.activity-yamingo-table .activity-table-data:first-child
+{
+    width: 600px
+}
+.activity-yamingo-table .activity-table-data:nth-child(2n)
+{
+    width: 108px;
+}
+.activity-yamingo-table .activity-table-data:last-child
+{
+    width: 100px
+}
+.table-title-activity
+{
+    color: #323232;
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.activity-date-time-table
+{
+    padding: 25px 19px;
+}
+.table-date-title
+{
+    color: #59b795;
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    background: #f0f0f0;
+    padding: 8px 15px;
+}
+.date-time-yamingo-table
+{
+    border: #eeeeee 1px solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: table;
+}
+.date-time-yamingo-tablebody
+{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.date-time-table-headings ,.date-time-table-datas{
+    display: table-row;
+    display: -moz-grid-group;
+    display: -ms-flexbox;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.date-time-table-title, .date-time-table-data {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.date-time-yamingo-table .date-time-table-title,.date-time-yamingo-table .date-time-table-data
+{
+    display: inline-block;
+    border-right: #eeeeee 1px solid;
+    border-top: #eeeeee 1px solid;
+}
+.date-time-yamingo-table .date-time-table-title
+{
+    background: #59b795;
+    color: #fff;
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    padding: 8px 12px;
+    height: 37px;
+}
+.date-time-yamingo-table .date-time-table-data
+{
+    color: #838383;
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    padding: 10px 13px;
+}
+.date-time-yamingo-table .date-time-table-data:first-child,.date-time-yamingo-table .date-time-table-title:first-child
+{
+    width: 110px;
+}
+.date-time-yamingo-table .date-time-table-data:nth-child(2n),.date-time-yamingo-table .date-time-table-title:nth-child(2n)
+{
+    width: 613px;
+}
+.date-time-yamingo-table .date-time-table-data:nth-child(4n-1),.date-time-yamingo-table .date-time-table-title:nth-child(4n-1)
+{
+    width: 99px;
+}
+.date-time-yamingo-table .date-time-table-data:nth-child(4n),.date-time-yamingo-table .date-time-table-title:nth-child(4n)
+{
+    width: 99px;
+}
+.date-time-yamingo-table .date-time-table-data:nth-child(5n),.date-time-yamingo-table .date-time-table-title:nth-child(5n)
+{
+    width: 177px;
+}
+.date-time-yamingo-table .date-time-table-data:last-child,.date-time-yamingo-table .date-time-table-title:last-child
+{
+    border-right: #eeeeee 0px solid;
+}
+.date-time-table-data a.info_link
+{
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    color: #545454;
+    background: #dadada;
+    padding: 4px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.date-time-table-data a.book_link
+{
+    font-family: 'Roboto-Regular';
+    font-size: 12px;
+    color: #fff;
+    background: #59b795;
+    padding: 4px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-transform: uppercase;
+}
+.date-time-table-data a.full_link
+{
+    font-family: 'RobotoMedium';
+    font-size: 14px;
+    color: #f00d0d;
+    padding: 0px 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.border-bottom-activity-table{
+    border-bottom: #dddddd 1px solid;
+    padding: 18px 0px;
+    margin-bottom: 29px;
+}
+.contct-form-book label{
+    color: #545454;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    text-transform: capitalize;
+    display: block;
+}
+.contct-form-book label span{
+    color: #e00505;
+}
+.contct-form-book input{
+    border: #dedede 1px solid;
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #545454;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.contct-btn-right
+{
+    float: right;
+    margin-top: 20px;
+}
+.contct-btn-right button
+{
+    color: #545454;
+    background: #dadada;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 11px 30px;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    text-transform: uppercase;    
+}
+
+/*--------------book css end--------*/
+
+
+/*--------------contact css end--------*/
+
+.contact-section
+{
+    padding-top: 62px;
+    padding-bottom: 271px;
+}
+
+.contact-section .contct-form-book input {
+    margin-bottom: 18px;
+}
+.contact-section .contct-form-book label {
+    margin-bottom: 8px;
+}
+.contact-section .contct-form-book .text-area-contact{
+    min-height: 100px;
+    margin-bottom: 11px;
+    resize: none;
+    width: 100%;
+    border: #dedede 1px solid;
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #545454;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.contact-section .contct-btn-right button {
+    color: #fff;
+    background: #59b795;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 9px 26px;
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.conatct-title
+{
+    margin-bottom: 42px;
+}
+/*--------------contact css end--------*/
+
+
+/*--------------faqs css start--------*/
+
+.faqs-section
+{
+    padding-top: 63px;
+    padding-bottom: 54px;
+}
+.faqs-content-title
+{
+    background: #f0f0f0;
+}
+.faqs-content
+{
+    border: #dedede 1px solid;
+    margin-bottom: 17px;
+    min-height: 163px;
+}
+.faqs-content-title h4
+{
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #545454;
+    padding: 13px 16px;
+}
+.faqs-content p
+{
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #545454;
+    padding: 20px 20px;
+    letter-spacing: 0.1px;
+    line-height: 1.7;
+}
+.faqs-title
+{
+    margin-bottom: 46px;
+}
+/*--------------faqs css end--------*/

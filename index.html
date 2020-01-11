@@ -1,0 +1,2108 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yomigo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" />
+</head>
+
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div class="container">
+            <div class="header_left">
+                <a href="index.html" class="logo_img"><img src="img/yomigo_logo.png" /></a> 
+                <a href="javascript:void(0);" class="nav_menu_text">MERCHANTS</a>
+                <a class="toggle_menu"> <span></span> <span></span> <span></span> </a>
+            </div>
+            <div class="header_right">
+                <ul>
+                    <li> <a href="javascript:void(0);">MERCHANTS</a> </li>
+                    <li> <a href="javascript:void(0);">SIGN UP</a> </li>
+                    <li class="login">
+                        <a href="javascrit:void(0);" class="h_btn_login" data-toggle="modal" data-target="#exampleModal">login</a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+
+    <section class="escape_room_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-6">
+                    <img src="img/banner_img.png" alt="" />
+                </div>
+                <div class="col-lg-7 col-md-7 col-6">
+                    <h2>Booking a group activity?</h2>
+                    <h2>Use Yomigo to split the cost!</h2>
+                    <ul>
+                        <li>
+                            Yomigo allows you to book and split the cost upfront,
+                            You only pay your share as the organizer.
+                        </li>
+                        <li>
+                            Yomigo will handle getting payments from the group,
+                            no more tracking people down to pay.
+                        </li>
+                    </ul>
+                    <div class="check_room"> <a href="javascript:void(0);">Check our activities</a> </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--- Word Three Image -->
+
+    <section class="work_main">
+        <div class="container">
+            <h3>How Yomigo’s <span>TrueSplit</span> works</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="work_img"><img src="img/step_1.png" alt="" /></div>
+                    <p>During checkout, enter how the purchase will be split</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="work_img"><img src="img/step_2.png" alt="" /></div>
+                    <p>Pay only your share and Yomigo will contact the others for their payments</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="work_img" id="work_img-3"><img src="img/step_3.png" alt="" /></div>
+                    <p class="works_last_content">Once they all pay, Yomigo will confirm your booking</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- check box Side Bar And 1st Room -->
+
+    <section class="check_box mt-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Checkbox -->
+
+                <div class="col-lg-2 col-md-2 col-12">
+                    <div class="Content_Detail responsive mb-2">
+                        <h5>Activities</h5>
+                    </div>
+                    <div class="row no-margine">
+                        <div class="col-lg-12 col-md-12 col-6 no-margine no-padding">
+                            <div class="form-check">
+                                <input type="checkbox" id="checkbox775" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox775">Escape rooms</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="checkbox776" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox776">Axe throwing</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-6 no-margine no-padding">
+                            <div class="panel-heading">
+                                <div class="">
+                                    <button onclick="showfilter(this)" class="dropbtn filterable float-right" id="morefilter">
+                                        More Filters <i class="fa fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Filter -->
+
+                    <div class="dropdown">
+                        <!--<button onclick="myFunction()" class="dropbtn filterable">
+                           Filters
+                        </button>-->
+                        <div class="dropdown">
+                            <!--<div class="panel-heading">
+                                <div class="">
+                                    <button onclick="showfilter(this)" class="dropbtn filterable">
+                                        More Filters <i class="fa fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>-->
+                            <div id="myDropdown" class="dropdown-content">
+
+                                <div class="row more_filter">
+                                    <div class="col-lg-12 filter_title no-margine">
+                                        <div class="filter_header">
+                                            <h4>More Filters</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="Content_Detail mb-2">
+                                    <h5>Boroughs</h5>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox1" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox1">Staten Island</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox2" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox2">Manhattan</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox3" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox3">Queens</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox4" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox4">Brooklyn</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox5" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox5">Bronx</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox6" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox6">Long Island</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" id="checkbox7" class="largerCheckbox filled-in form-check-input">
+                                    <label class="form-check-label" for="checkbox7">North New Jersey</label>
+                                </div>
+                                <div class="Content_Detail mt-3 mb-1">
+                                    <h5>Group Size</h5>
+                                </div>
+                                <select class="form-control form-control-sm" id="form_input">
+                                    <option>Size</option>
+                                    <option>1/2</option>
+                                    <option>1/3</option>
+                                    <option>2/1</option>
+                                    <option>2/2</option>
+                                </select>
+                                <div class="Content_Detail mt-4 mb-0">
+                                    <h5>
+                                        Instant Booking
+                                        <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i>
+                                    </h5>
+                                </div>
+                                <div class="modal fade" id="instantmodal" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            
+                                            <div class="modal-body">
+                                                <p>It’s the merchants we’re integrated with and we can see their inventory</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="form-check mt-1 mb-1">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios15" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios15">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check mt-1 mb-1">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios20" value="option2">
+                                    <label class="form-check-label" for="exampleRadios20">
+                                        No
+                                    </label>
+                                </div>
+                                <div class="Content_Detail mt-4 mb-0">
+                                    <h5>
+                                        Instant Booking
+                                        <i class="fa fa-question-circle" data-toggle="modal" data-target="#grouptmodal"></i>
+                                    </h5>
+                                </div>
+                                <div class="modal fade" id="grouptmodal" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <p>It’s the policy the merchant sets on what happens if everyone doesn’t pay on time.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="form-check mt-1 mb-1">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios35" value="option3" checked>
+                                    <label class="form-check-label" for="exampleRadios35">
+                                        flexible
+                                    </label>
+                                </div>
+                                <div class="form-check mt-1 mb-1">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios42" value="option4">
+                                    <label class="form-check-label" for="exampleRadios42">
+                                        strict
+                                    </label>
+                                </div>
+                                
+
+
+                                <div class="btn_filter text-right mt-3">
+                                    <button class="btn_filter_clear_filter">Clear Filter</button>
+                                    <button class="btn_filter_cancel" onclick="closefilter()">Close</button>
+                                    <button class="btn_filter_apply" onclick="closefilter()">Apply Filter</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="responsive_filter">
+
+                            <div class="Content_Detail mb-2">
+                                <h5>Boroughs</h5>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox50" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox50">Staten Island</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox51" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox51">Manhattan</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox52" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox52">Queens</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox53" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox53">Brooklyn</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox54" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox54">Bronx</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox55" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox55">Long Island</label>
+                            </div>
+
+                            <div class="form-check mb-2">
+                                <input type="checkbox" id="checkbox56" class="largerCheckbox filled-in form-check-input">
+                                <label class="form-check-label" for="checkbox56">North New Jersey</label>
+                            </div>
+                            <div class="Content_Detail mt-4 mb-0">
+                                <h5>Group Size</h5>
+                            </div>
+                            <select class="form-control form-control-sm" id="form_input_1">
+                                <option>Size</option>
+                                <option>1/2</option>
+                                <option>1/3</option>
+                                <option>2/1</option>
+                                <option>2/2</option>
+                            </select>
+                            <div class="Content_Detail mt-4 mb-0">
+                                <h5>
+                                    Instant Booking
+                                    <i class="fa fa-question-circle" data-toggle="tooltip" title="It’s the merchants we’re integrated with and we can see their inventory!"></i>
+                                </h5>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios15" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios15">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios20" value="option2">
+                                <label class="form-check-label" for="exampleRadios20">
+                                    No
+                                </label>
+                            </div>
+                            <div class="Content_Detail mt-4 mb-0">
+                                <h5>
+                                    Group Policy
+                                    <i class="fa fa-question-circle" data-toggle="tooltip" title="It’s the policy the merchant sets on what happens if everyone doesn’t pay on time"></i>
+                                </h5>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios35" value="option3" checked>
+                                <label class="form-check-label" for="exampleRadios35">
+                                    flexible
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios42" value="option4">
+                                <label class="form-check-label" for="exampleRadios42">
+                                    strict
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- 1st Room -->
+
+                <div class="col-lg-10 col-md-10 col-12">
+                    <div id="room_conten" class="second_games">
+                        <div class="card">
+
+                            <!-- Card Header -->
+
+                            <div class="card-header">
+                                Featured Merchant
+                            </div>
+
+                            <!-- Card Body Start -->
+
+                            <div class="card-body" style="border-bottom:2px solid #b7596a;">
+                                <h5 class="card-title">Amazing Escape Room Staten Island</h5>
+                                <p class="card-text pt-3">585 N. Gannon Ave, </p>
+                                <p class="card-text">Staten Island NY 10314 </p>
+                                <p class="card-text mt-2">4 rooms</p>
+                            </div>
+
+                        </div>
+
+                        <div class="card-body" id="">
+
+                            <!-- Rooms Header -->
+
+                            <div class="text-left mb-2">
+                                <p>Rooms</p>
+                            </div>
+
+                            <!-- Rooms-1 Content -->
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/room1.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <h4 class="chase_text">The Diamond Mine</h4>
+                                    <p class="chase_middle_text showlesscontent">Your journey immerses you deep below ground into an old abandon diamond mine. There you must find the lost diamond treasure and make it to the surface before your oxygen runs out.</p>
+                                    <!--<a class="readMore">Read More</a>-->
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a href="#" class="chase_btn" data-toggle="collapse" data-target="#remore1">BOOK NOW WITH TRUESPLIT</a>
+                                </div>
+                            </div>
+
+                            <!-- Room-1 Booking Info -->
+
+                            <div id="remore1" class="collapse mt-4 mb-4">
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_2">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore1">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+                                <hr />
+
+                            </div>
+
+                            <!-- Room-2 Conmtent -->
+
+                            <div class="row mt-4 faded faded-bottom">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/room-3.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <h4 class="chase_text">Superhero Alley</h4>
+                                    <p class="chase_middle_text showlesscontent">You have joined a notorious crime syndicate and your mob boss has a job for you to prove your worth, rob The Staten Island Bank. You only have 60 minutes to acquire as much cash as you can</p>
+                                    <!--<a class="readMore">Read More</a>-->
+
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a class="chase_btn" data-toggle="collapse" data-target="#remore2">BOOK NOW WITH TRUESPLIT</a>
+                                </div>
+                            </div>
+
+                            <!-- Room-2 Booking Content -->
+
+                            <div id="remore2" class="collapse mt-4">
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+                                            
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_3">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore2">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+                                <hr />
+                            </div>
+
+                            <!-- See All -->
+
+                            <div class="text-center mt-4">
+                                <!--<a class="see_all_line">See All Games >></a>-->
+                                <a class="see_all_line" data-toggle="collapse" data-target="#seeall1">See All Games >></a>
+
+                            </div>
+
+                            <!-- See All Description -->
+
+                            <div class="collapse" id="seeall1">
+
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                        <div class=""> <img src="img/room1.png" alt="" /> </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                        <h4 class="chase_text">The Diamond Mine</h4>
+                                        <p class="chase_middle_text showlesscontent">Your favorite superhero is on the hunt for a damsel in distress. You have been recruited to be their sidekick and help solve the mystery in where the villain is hiding her.</p>
+                                        <!--<a class="readMore" data-toggle="collapse" data-target="#demo">Read More</a>-->
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                        <a class="chase_btn" data-toggle="collapse" data-target="#redmore3">BOOK NOW WITH TRUESPLIT</a>
+                                    </div>
+                                </div>
+
+                                <div id="redmore3" class="collapse mt-4 mb-4">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="calendar">
+                                                <div class="group calendar-ympicker">
+                                                    <div class="calendar-ympicker-header">
+                                                        <div style="font-size:small;" class="today">Today</div>
+                                                        <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                    </div>
+                                                    <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                        <li>Jan</li>
+                                                        <li>Feb</li>
+                                                        <li>Mar</li>
+                                                        <li>Apr</li>
+                                                        <li>May</li>
+                                                        <li>Jun</li>
+                                                        <li>Jul</li>
+                                                        <li>Aug</li>
+                                                        <li>Oct</li>
+                                                        <li>Sep</li>
+                                                        <li>Nov</li>
+                                                        <li>Dec</li>
+                                                    </ul>
+                                                    <ul class="center calendar-ympicker-years"></ul>
+                                                </div>
+
+                                                <div class="group calendar-header">
+                                                    <p class="pointer center monthname">&nbsp;</p>
+                                                    <p class="pointer arrow minusmonth">
+                                                        <span>
+                                                            <img src="img/side_2.png" />
+
+                                                        </span>
+                                                    </p>
+                                                    <p class="pointer arrow addmonth">
+                                                        <span>
+
+                                                            <img src="img/side.png" />
+                                                        </span>
+                                                    </p>
+                                                </div>
+
+                                                <ul class="group calendar-days">
+                                                    <li>Mo</li>
+                                                    <li>Tu</li>
+                                                    <li>We</li>
+                                                    <li>Th</li>
+                                                    <li>Fr</li>
+                                                    <li>Sa</li>
+                                                    <li>Su</li>
+                                                </ul>
+                                                <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="calander_sidebar">
+                                                
+                                                <div id="myDIV" class="timebutton">
+                                                    <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                    <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                    <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                    <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                    <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                                </div>
+
+                                                <div class="slots_check">
+                                                    <h5>Slots Available: 5/10</h5>
+                                                </div>
+
+                                                <form class="form-inline mb-3">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputName2">Group Size :</label>
+                                                        <select class="form-control form-control-sm ml-2" id="form_input_4">
+                                                            <option>Size</option>
+                                                            <option>1/2</option>
+                                                            <option>1/3</option>
+                                                            <option>2/1</option>
+                                                            <option>2/2</option>
+                                                        </select>
+                                                    </div>
+                                                </form>
+                                                <div class="prise_cal">
+                                                    <h5>Prise: $28.20 per person</h5>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                          
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst1"><strong>First Name</strong></label>
+                                                <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst"><strong>Last Name</strong></label>
+                                                <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                                <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="email2"><strong>Email</strong></label>
+                                                <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#redmore3">CANCEL</button>
+                                        <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                    </div>
+
+
+                                    <hr />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Second Room -->
+
+    <section class="second_games mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-12"></div>
+                <div class="col-lg-10 col-md-10 col-12">
+                    <div>
+                        <div class="card">
+                            <div class="clue_content">
+                                <div class="clue_text">
+                                    <h3>Staten Island Great Escape Room </h3>
+                                    <p>2327 Richmond Avenue, Staten Island NY 10314 5 rooms</p>
+                                    <p class="three_room">5 rooms</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body" id="">
+
+                            <!-- Rooms Header -->
+
+                            <div class="text-left mb-2">
+                                <p>Rooms</p>
+                            </div>
+
+                            <!-- Room-3 Content -->
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/wine_1.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <h4 class="chase_text">Laser Maze</h4>
+                                    <p class="chase_middle_text showlesscontent">Laser Maze is cutting edge entertainment. Player needs to wade through rooms equipped with many laser beams without breaking them. Just as in spies and bank robbers do in movies.</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a class="chase_btn" data-toggle="collapse" data-target="#remore3">
+                                        BOOK ON
+                                        MERCHANT SITE
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Room-3 Booking Info -->
+
+                            <div id="remore3" class="collapse mt-4">
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+                                           
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">1:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">4:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_5">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore3">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+                                <hr />
+                            </div>
+
+                            <!-- Room-4 Content -->
+
+                            <div class="row mt-4 faded faded-bottom">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/wine_3.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <h4 class="chase_text">Twilight Zone</h4>
+                                    <p class="chase_middle_text showlesscontent">It’s the 1950’s. A barber shop business has been under surveillance for a number of weeks. There’s strange activity going on: unusual opening hours,  unsavory clientele. Your mission, if you</p>
+                                    <!-- <a class="readMore" data-toggle="collapse" data-target="#remore5">Read More</a>-->
+
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a class="chase_btn" data-toggle="collapse" data-target="#remore4">
+                                        BOOK ON
+                                        MERCHANT SITE
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Room-4 Booking Info -->
+
+                            <div id="remore4" class="collapse mt-4">
+
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+                                            
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_6">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore4">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+                                <hr />
+                            </div>
+
+
+                            <!-- See All Games -->
+
+                            <div class="text-center mt-4">
+                                <a class="see_all_line" data-toggle="collapse" data-target="#seeall2">See All Games >></a>
+                            </div>
+
+                            <!-- See All  -->
+
+                            <div class="collapse" id="seeall2">
+
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                        <div class=""> <img src="img/wine_1.png" alt="" /> </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                        <h4 class="chase_text">Laser Maze</h4>
+                                        <p class="chase_middle_text showlesscontent">Laser Maze is cutting edge entertainment. Player needs to wade through rooms equipped with many laser beams without breaking them. Just as in spies and bank robbers do in movies.</p>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                        <a class="chase_btn" data-toggle="collapse" data-target="#remoresee">
+                                            BOOK ON
+                                            MERCHANT SITE
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div id="remoresee" class="collapse mt-4 mb-4">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="calendar">
+                                                <div class="group calendar-ympicker">
+                                                    <div class="calendar-ympicker-header">
+                                                        <div style="font-size:small;" class="today">Today</div>
+                                                        <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                    </div>
+                                                    <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                        <li>Jan</li>
+                                                        <li>Feb</li>
+                                                        <li>Mar</li>
+                                                        <li>Apr</li>
+                                                        <li>May</li>
+                                                        <li>Jun</li>
+                                                        <li>Jul</li>
+                                                        <li>Aug</li>
+                                                        <li>Oct</li>
+                                                        <li>Sep</li>
+                                                        <li>Nov</li>
+                                                        <li>Dec</li>
+                                                    </ul>
+                                                    <ul class="center calendar-ympicker-years"></ul>
+                                                </div>
+
+                                                <div class="group calendar-header">
+                                                    <p class="pointer center monthname">&nbsp;</p>
+                                                    <p class="pointer arrow minusmonth">
+                                                        <span>
+                                                            <img src="img/side_2.png" />
+
+                                                        </span>
+                                                    </p>
+                                                    <p class="pointer arrow addmonth">
+                                                        <span>
+
+                                                            <img src="img/side.png" />
+                                                        </span>
+                                                    </p>
+                                                </div>
+
+                                                <ul class="group calendar-days">
+                                                    <li>Mo</li>
+                                                    <li>Tu</li>
+                                                    <li>We</li>
+                                                    <li>Th</li>
+                                                    <li>Fr</li>
+                                                    <li>Sa</li>
+                                                    <li>Su</li>
+                                                </ul>
+                                                <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="calander_sidebar">
+                                                
+                                                <div id="myDIV" class="timebutton">
+                                                    <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                    <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                    <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                    <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                    <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                                </div>
+
+                                                <div class="slots_check">
+                                                    <h5>Slots Available: 5/10</h5>
+                                                </div>
+
+                                                <form class="form-inline mb-3">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputName2">Group Size :</label>
+                                                        <select class="form-control form-control-sm ml-2" id="form_input_7">
+                                                            <option>Size</option>
+                                                            <option>1/2</option>
+                                                            <option>1/3</option>
+                                                            <option>2/1</option>
+                                                            <option>2/2</option>
+                                                        </select>
+                                                    </div>
+                                                </form>
+                                                <div class="prise_cal">
+                                                    <h5>Prise: $28.20 per person</h5>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                            
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst1"><strong>First Name</strong></label>
+                                                <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst"><strong>Last Name</strong></label>
+                                                <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                                <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="email2"><strong>Email</strong></label>
+                                                <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remoresee">CANCEL</button>
+                                        <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                    </div>
+
+                                    <hr />
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third Room -->
+
+    <section class="second_games mt-5" id="third_game">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-12"></div>
+                <div class="col-lg-10 col-md-10 col-12">
+                    <div>
+                        <div class="card">
+                            <div class="clue_content">
+                                <div class="clue_text">
+                                    <h3>Unreal Escapes Staten Island</h3>
+                                    <p>2571 Arthur Kill Rd, Staten Island NY 10309</p>
+                                    <p class="three_room">2 rooms</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body" id="">
+
+                            <!-- Game3 Room Header -->
+
+                            <div class="text-left mb-2">
+                                <p>Rooms</p>
+                            </div>
+
+                            <!-- Room-5 Content -->
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/room4.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <div class="cux">
+                                        <h4 class="chase_text">Battleship</h4>
+                                        <p class="chase_middle_text showlesscontent">World War III has broken out. The entire United States Naval fleet has been destroyed by a surprise, all sides’ naval attack. Fortunately for the U.S., there is one old, beat up, decommission.</p>
+                                        <!--<a class="readMore" data-toggle="collapse" data-target="#remore6">Read More</a>-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a class="chase_btn" data-toggle="collapse" data-target="#remore5">
+                                        BOOK ON
+                                        MERCHANT SITE
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Room-5 Booking Info -->
+
+                            <div id="remore5" class="collapse mt-4">
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+                                           
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_8">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore5">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+                                <hr />
+                            </div>
+
+                            <!-- Room-6 Content -->
+
+                            <div class="row mt-4">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-5">
+                                    <div class=""> <img src="img/room5.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6 col-7">
+                                    <h4 class="chase_text">Disco 54b</h4>
+                                    <p class="chase_middle_text showlesscontent">Legendary Disco 54 is about to be closed down for good by the Feds. Disco 54 is the discotheque to end all discotheques. Unfortunately the owners have been naughty boys, so this is your last.</p>
+                                    <!-- <a class="readMore" data-toggle="collapse" data-target="#remore7">Read More</a>-->
+
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-12 no_pad">
+                                    <a class="chase_btn" data-toggle="collapse" data-target="#remore6">
+                                        BOOK ON
+                                        MERCHANT SITE
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Room-6 Booking Info -->
+
+                            <div id="remore6" class="collapse mt-4">
+                                <div class="row mb-4">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calendar">
+                                            <div class="group calendar-ympicker">
+                                                <div class="calendar-ympicker-header">
+                                                    <div style="font-size:small;" class="today">Today</div>
+                                                    <div style="float:right;width:20%;text-align:right;" class="close">&uarr;</div>
+                                                </div>
+                                                <ul style="clear:both;" class="center calendar-ympicker-months">
+                                                    <li>Jan</li>
+                                                    <li>Feb</li>
+                                                    <li>Mar</li>
+                                                    <li>Apr</li>
+                                                    <li>May</li>
+                                                    <li>Jun</li>
+                                                    <li>Jul</li>
+                                                    <li>Aug</li>
+                                                    <li>Oct</li>
+                                                    <li>Sep</li>
+                                                    <li>Nov</li>
+                                                    <li>Dec</li>
+                                                </ul>
+                                                <ul class="center calendar-ympicker-years"></ul>
+                                            </div>
+
+                                            <div class="group calendar-header">
+                                                <p class="pointer center monthname">&nbsp;</p>
+                                                <p class="pointer arrow minusmonth">
+                                                    <span>
+                                                        <img src="img/side_2.png" />
+
+                                                    </span>
+                                                </p>
+                                                <p class="pointer arrow addmonth">
+                                                    <span>
+
+                                                        <img src="img/side.png" />
+                                                    </span>
+                                                </p>
+                                            </div>
+
+                                            <ul class="group calendar-days">
+                                                <li>Mo</li>
+                                                <li>Tu</li>
+                                                <li>We</li>
+                                                <li>Th</li>
+                                                <li>Fr</li>
+                                                <li>Sa</li>
+                                                <li>Su</li>
+                                            </ul>
+                                            <ul class="group calendar-body"><!-- Dates go in here --></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                        <div class="calander_sidebar">
+                                           
+                                            <div id="myDIV" class="timebutton">
+                                                <button class="btn" id="btn-time_1" onclick="javascript: btnactive(this);">10:15am</button>
+                                                <button class="btn active" id="btn-time_2" onclick="javascript: btnactive(this);">11:30am</button>
+                                                <button class="btn" id="btn-time_3" onclick="javascript: btnactive(this);">12:45pm</button>
+                                                <button class="btn" id="btn-time_4" onclick="javascript: btnactive(this);">01:15pm</button>
+                                                <button class="btn" id="btn-time_5" onclick="javascript: btnactive(this);">04:30pm</button>
+                                            </div>
+
+                                            <div class="slots_check">
+                                                <h5>Slots Available: 5/10</h5>
+                                            </div>
+
+                                            <form class="form-inline mb-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputName2">Group Size :</label>
+                                                    <select class="form-control form-control-sm ml-2" id="form_input_9">
+                                                        <option>Size</option>
+                                                        <option>1/2</option>
+                                                        <option>1/3</option>
+                                                        <option>2/1</option>
+                                                        <option>2/2</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                            <div class="prise_cal">
+                                                <h5>Prise: $28.20 per person</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst1"><strong>First Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst"><strong>Last Name</strong></label>
+                                            <input type="text" class="form-control" id="examplefirst" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="examplefirst2"><strong>Phone Number</strong></label>
+                                            <input type="number" class="form-control" id="examplefirst2" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email2"><strong>Email</strong></label>
+                                            <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="btn-group mt-3" id="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-default btn-rounded cancel" data-toggle="collapse" data-target="#remore6">CANCEL</button>
+                                    <button class="chase_btn" id="chase_btn" disabled="true">BOOK NOW WITH TRUESPLIT</button>
+                                </div>
+
+
+                                <hr />
+                            </div>
+
+                            <!-- Pagination -->
+
+                            <nav aria-label="Page navigation" class="mt-4">
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="index.html">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="right_footer">2018 © All right reserved.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 text-center">
+                    <i class="fa fa-facebook-f" style="margin-right:12px;"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="footer_terms">
+                        <a>FAQ |</a>
+                        <a>About Us |</a>
+                        <a>Contact Us |</a>
+                        <a>Privacy Policy |</a>
+                        <a>Terms Of Service </a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade in " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top:100px;">
+        <div class="modal-dialog log_in" role="document">
+            <div class="modal-content log_in">
+                <div class="modal-header log_in">
+
+                    <div class="log_in_title"><h1>Login to your Yomigo account</h1></div>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-body log_in">
+
+                    <form class="">
+
+                        <div class="form_content">
+                            <div class="form-group">
+                                <label class="form_label_log_in">Email<span>*</span></label>
+                                <input type="email" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Password<span>*</span></label>
+                                <input type="password" class="form-control control">
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="coustom_cb" id="c50_cb1">
+                                <label class="form_label_log_in lable_border" for="c50_cb1">Keep me logged in</label>
+                            </div>
+                            <div class="form-group btn_grp">
+                                <button class="btn_login">Login</button>
+                                <!--<button class="btn_register" data-toggle="modal" data-target="#exampleModal1">register</button>-->
+
+                                <a href="javascript:void(0);" class="forgot_pwd_link">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- See All & Read More Js -->
+    
+    <script>
+        $(document).ready(function () {
+            $('.toggle_menu').click(function () {
+                $('.header_right').slideToggle();
+            });
+            //$('.second_games').each(function() {
+            //    var h = $(this).children('ul')[0].scrollHeight;
+            //    $(this).children('.see_all_line').click(function (e) {
+            //        e.stopPropagation();
+            //        $(this).hide();
+            //        $(this).parent().children('ul').animate({
+            //            'height': h
+            //        });
+            //        $(this).parent().children('ul').css('overflow', 'visible');
+            //        $(this).parent().addClass('see_all_open');
+            //        $(this).parent().find('.chase_contain,.chase_img').contents().unwrap();
+            //    });
+            //});
+            //var max_height = $('.second_games').height();
+            //$('.expert_img').css('min-height', max_height);
+
+            $('.see_all_line').click(function (e) {
+                $(this).hide();
+            });
+
+           
+            $('.chase_btn').click(function (e) {
+                $(this).hide();
+            });
+            $('.cancel').click(function (e) {
+                $('.chase_btn').show();
+            });
+           
+            $(function () {
+                AddReadMore();
+            });
+
+            
+           
+           
+
+        });
+        $(window).resize(function () {
+            setTimeout(function () {
+                var max_height = $('.second_games').height();
+                $('.expert_img').css('min-height', max_height);
+
+            }, 500);
+        });
+        function AddReadMore() {
+
+            if ($(window).width() > 767) {
+                var carLmt = 150;
+            } else {
+                var carLmt = 100;
+            }
+            var readMoreTxt = "Read More";
+            var readLessTxt = "Read Less";
+            $(".chase_middle_text").each(function () {
+                if ($(this).find(".firstSec").length) return;
+                var allstr = $(this).text();
+
+                if (allstr.length > carLmt) {
+                    var firstSet = allstr.substring(0, carLmt);
+                    var secdHalf = allstr.substring(carLmt, allstr.length);
+                    var strtoadd = firstSet + "<span class='threedots'>...</span>" + "<span class='SecSec'>" + secdHalf + "</span><a class='readMore'>" + readMoreTxt + "</a><a class='readLess'>" + readLessTxt + "</a>";
+                    $(this).html(strtoadd);
+                }
+            });
+            $(document).on("click", ".readMore,.readLess", function () {
+
+                $(this).closest(".chase_middle_text").toggleClass("showlesscontent showmorecontent");
+            });
+
+
+        }
+        function showfilter(e) {
+            document.getElementById("myDropdown").classList.toggle("show");
+            $('.dropbtn.filterable').css('visibility', 'hidden');
+        }
+        function closefilter() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            $('.dropbtn.filterable').css('visibility', 'visible');            
+            goToByScroll('morefilter');
+        }
+       
+
+    </script>
+
+    <script>
+        function myFunction() {
+            document.getElementById(".dropdown-content").reset();
+        }
+    </script>
+
+    <script>
+
+        var d = new Date();
+
+        var Calendar = {
+            themonth: d.getMonth(), // The number of the month 0-11
+            theyear: d.getFullYear(), // This year
+            today: [d.getFullYear(), d.getMonth(), d.getDate()], // adds today style
+            selectedDate: null, // set to today in init()
+            years: [], // populated with last 10 years in init()
+            months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+
+            init: function () {
+                this.selectedDate = this.today
+                // Populate the list of years in the month/year pulldown
+                var year = this.theyear;
+                for (var i = 0; i < 10; i++) {
+                    this.years.push(year--);
+                }
+
+                this.bindUIActions();
+                this.render();
+            },
+
+            bindUIActions: function () {
+                // Create Years list and add to ympicker
+                for (var i = 0; i < this.years.length; i++)
+                    $('<li>' + this.years[i] + '</li>').appendTo('.calendar-ympicker-years');
+                this.selectMonth(); this.selectYear(); // Add active class to current month n year
+
+                // Slide down year month picker
+                $('.monthname').click(function () {
+                    $('.calendar-ympicker').css('transform', 'translateY(0)');
+                });
+
+                // Close year month picker without action
+                $('.close').click(function () {
+                    $('.calendar-ympicker').css('transform', 'translateY(-100%)');
+                });
+
+                // Move calander to today
+                $('.today').click(function () {
+                    Calendar.themonth = d.getMonth();
+                    Calendar.theyear = d.getFullYear();
+                    Calendar.selectMonth(); Calendar.selectYear();
+                    Calendar.selectedDate = Calendar.today;
+                    Calendar.render();
+                    $('.calendar-ympicker').css('transform', 'translateY(-100%)');
+                });
+
+                // Click handlers for ympicker list items
+                $('.calendar-ympicker-months li').click(function () {
+                    Calendar.themonth = $('.calendar-ympicker-months li').index($(this));
+                    Calendar.selectMonth();
+                    Calendar.render();
+                    $('.calendar-ympicker').css('transform', 'translateY(-100%)');
+                });
+                $('.calendar-ympicker-years li').click(function () {
+                    Calendar.theyear = parseInt($(this).text());
+                    Calendar.selectYear();
+                    Calendar.render();
+                    $('.calendar-ympicker').css('transform', 'translateY(-100%)');
+                });
+
+                // Move the calendar pages
+                $('.minusmonth').click(function () {
+                    Calendar.themonth += -1;
+                    Calendar.changeMonth();
+                });
+                $('.addmonth').click(function () {
+                    Calendar.themonth += 1;
+                    Calendar.changeMonth();
+                });
+            },
+
+            // Adds class="active" to the selected month/year
+            selectMonth: function () {
+                $('.calendar-ympicker-months li').removeClass('active');
+                $('.calendar-ympicker-months li:nth-child(' + (this.themonth + 1) + ')').addClass('active');
+            },
+            selectYear: function () {
+                $('.calendar-ympicker-years li').removeClass('active');
+                $('.calendar-ympicker-years li:nth-child(' + (this.years.indexOf(this.theyear) + 1) + ')').addClass('active');
+            },
+
+            // Makes sure that month rolls over years correctly
+            changeMonth: function () {
+                if (this.themonth == 12) {
+                    this.themonth = 0;
+                    this.theyear++;
+                    this.selectYear();
+                }
+                else if (this.themonth == -1) {
+                    this.themonth = 11;
+                    this.theyear--;
+                    this.selectYear();
+                }
+                this.selectMonth();
+                this.render();
+            },
+
+            // Helper functions for time calculations
+            TimeCalc: {
+                firstDay: function (month, year) {
+                    var fday = new Date(year, month, 1).getDay(); // Mon 1 ... Sat 6, Sun 0
+                    if (fday === 0) fday = 7;
+                    return fday - 1; // Mon 0 ... Sat 5, Sun 6
+                },
+                numDays: function (month, year) {
+                    return new Date(year, month + 1, 0).getDate(); // Day 0 is the last day in the previous month
+                }
+            },
+
+            render: function () {
+                var days = this.TimeCalc.numDays(this.themonth, this.theyear), // get number of days in the month
+                  fDay = this.TimeCalc.firstDay(this.themonth, this.theyear), // find what day of the week the 1st lands on
+                  daysHTML = '', i;
+
+                $('.calendar p.monthname').text(this.months[this.themonth] + '  ' + this.theyear); // add month name and year to calendar
+                for (i = 0; i < fDay; i++) { // place the first day of the month in the correct position
+                    daysHTML += '<li class="noclick">&nbsp;</li>';
+                }
+                // write out the days
+                for (i = 1; i <= days; i++) {
+                    if (this.today[0] == this.selectedDate[0] &&
+                      this.today[1] == this.selectedDate[1] &&
+                      this.today[2] == this.selectedDate[2] &&
+                      this.today[0] == this.theyear &&
+                      this.today[1] == this.themonth &&
+                      this.today[2] == i)
+                        daysHTML += '<li class="active today">' + i + '</li>';
+                    else if (this.today[0] == this.theyear &&
+                      this.today[1] == this.themonth &&
+                      this.today[2] == i)
+                        daysHTML += '<li class="today">' + i + '</li>';
+                    else if (this.selectedDate[0] == this.theyear &&
+                      this.selectedDate[1] == this.themonth &&
+                      this.selectedDate[2] == i)
+                        daysHTML += '<li class="active">' + i + '</li>';
+                    else
+                        daysHTML += '<li>' + i + '</li>';
+
+                    $('.calendar-body').html(daysHTML); // Only one append call
+                }
+
+                // Adds active class to date when clicked
+                $('.calendar-body li').click(function () { // toggle selected dates
+                    if (!$(this).hasClass('noclick')) {
+                        $('.calendar-body li').removeClass('active');
+                        $(this).addClass('active');
+                        Calendar.selectedDate = [Calendar.theyear, Calendar.themonth, $(this).text()]; // save date for reselecting
+                    }
+                });
+            }
+        };
+
+        Calendar.init();
+    </script>
+
+
+    <script>
+
+
+        $(document).ready(function () {
+            $('.filterable .btn-filter').click(function () {
+                var $panel = $(this).parents('.filterable'),
+                $filters = $panel.find('.filters input'),
+                $tbody = $panel.find('.table tbody');
+                if ($filters.prop('disabled') == true) {
+                    $filters.prop('disabled', false);
+                    $filters.first().focus();
+                } else {
+                    $filters.val('').prop('disabled', true);
+                    $tbody.find('.no-result').remove();
+                    $tbody.find('tr').show();
+                }
+            });
+
+            $('.filterable .filters input').keyup(function (e) {
+                /* Ignore tab key */
+                var code = e.keyCode || e.which;
+                if (code == '9') return;
+                /* Useful DOM data and selectors */
+                var $input = $(this),
+                inputContent = $input.val().toLowerCase(),
+                $panel = $input.parents('.filterable'),
+                column = $panel.find('.filters th').index($input.parents('th')),
+                $table = $panel.find('.table'),
+                $rows = $table.find('tbody tr');
+                /* Dirtiest filter function ever ;) */
+                var $filteredRows = $rows.filter(function () {
+                    var value = $(this).find('td').eq(column).text().toLowerCase();
+                    return value.indexOf(inputContent) === -1;
+                });
+                /* Clean previous no-result if exist */
+                $table.find('tbody .no-result').remove();
+                /* Show all rows, hide filtered ones (never do that outside of a demo ! xD) */
+                $rows.show();
+                $filteredRows.hide();
+                /* Prepend no-result row if all rows are filtered */
+                if ($filteredRows.length === $rows.length) {
+                    $table.find('tbody').prepend($('<tr class="no-result text-center"><td colspan="' + $table.find('.filters th').length + '">No result found</td></tr>'));
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+        //var header = document.getElementsByClassName(".timebutton");
+        //var btns = header.getElementsByClassName("btn");
+        //for (var i = 0; i < $('.timebutton').length; i++) {
+        //    $('.btn')[i].addEventListener("click", function () {
+        //        $('.timebutton .btn.active').removeClass('active');
+        //        this.className += " active";
+        //    });
+        //}
+
+
+        function btnactive(e) {
+
+
+
+
+            for (var i = 0; i < $('.timebutton').length; i++) {
+
+                $('.timebutton .btn.active').removeClass('active');
+            }
+            
+            e.className += " active";
+        }
+
+        function goToByScroll(id) {
+            // Remove "link" from the ID
+            id = id.replace("link", "");
+            // Scroll
+            $('html,body').animate({
+                scrollTop: $("#" + id).offset().top
+            }, 'slow');
+        }
+    </script>
+
+</body>
+</html>

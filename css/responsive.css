@@ -1,0 +1,2929 @@
+
+
+@media screen and (max-width: 1199px) {
+
+    .payment_cont h5 {
+        font-size: 14px;
+    }
+
+    .detail_name {
+        font-size: 12px;
+    }
+
+    .book-info-content {
+        width: 645px;
+    }
+
+    .book-now-info h3 {
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+    /*    .book-now-info p {line-height: 1.2;}*/
+    .map-info .venu-hours-info div.day {
+        width: 138px;
+    }
+
+    .map-info h4 {
+        font-size: 24px;
+        width: 265px;
+    }
+
+    .banner-top-yamigo .banner-content h3 {
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+
+    .banner-top-yamigo .banner-content h4 {
+        font-size: 26px;
+    }
+
+    .date-time-yamingo-table .date-time-table-data:nth-child(2n), .date-time-yamingo-table .date-time-table-title:nth-child(2n) {
+        width: 495px;
+    }
+
+    .date-time-yamingo-table .date-time-table-data:nth-child(4n-1), .date-time-yamingo-table .date-time-table-title:nth-child(4n-1), .date-time-yamingo-table .date-time-table-data:first-child, .date-time-yamingo-table .date-time-table-title:first-child {
+        width: 80px;
+    }
+
+    .date-time-yamingo-table .date-time-table-data:nth-child(4n), .date-time-yamingo-table .date-time-table-title:nth-child(4n) {
+        width: 65px;
+    }
+
+    .date-time-yamingo-table .date-time-table-data:nth-child(5n), .date-time-yamingo-table .date-time-table-title:nth-child(5n) {
+        width: 128px;
+    }
+
+    .date-time-table-data a.info_link {
+        margin-right: 5px;
+    }
+
+    .contact-section h3 {
+        font-size: 28px;
+    }
+
+    .activity-yamingo-table .activity-table-data:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .date-time-table-data a.book_link, .date-time-table-data a.info_link {
+        padding: 4px 8px;
+    }
+
+    .contact-section .contct-btn-right button {
+        padding: 9px 20px;
+        font-size: 16px;
+    }
+
+    /*---- 10-11-db ----*/
+    .activity-yamingo-table .book-activity {
+        width: 100%;
+        padding-right: 35px;
+    }
+
+    .step-2 .form-table th, .step-2 .form-table td {
+        padding: 10px 10px;
+    }
+
+        .step-2 .form-table td:nth-child(2n) {
+            /*        width: 68px; */
+        }
+
+        .step-2 .form-table td:first-child {
+            width: 300px;
+        }
+
+    input#customAmount {
+        width: 70px;
+    }
+
+    .remCF {
+        margin-left: 5px;
+        /*vertical-align: -webkit-baseline-middle;*/
+    }
+
+    .trusplit-table td:first-child {
+        width: 24%;
+    }
+
+    .trusplit-table td:nth-child(2) {
+        width: 24%;
+    }
+
+    .trusplit-table td:nth-child(5) {
+        width: 16%;
+    }
+
+
+    .step-1 .activity-yamingo-table .activity-table-data:first-child {
+        margin-right: 15px;
+    }
+
+    .top-content {
+        padding: 50px 0 40px 0;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data:first-child {
+        width: 100%;
+    }
+
+    .page_title_content h1 {
+        font-size: 22px;
+    }
+
+    .merchant_detail_desc h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        max-width: 130px;
+    }
+
+    .pro_details {
+        padding: 18px 0;
+    }
+
+    .step-3 .confirm_footer {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .form_title h1 {
+        font-size: 20px;
+    }
+
+    .new_card {
+        padding: 35px 17px;
+    }
+
+    .page_title_content p {
+        font-size: 16px;
+    }
+
+    .payment-details-desc {
+        margin-top: 20px;
+    }
+
+    .merchant_detail_desc p {
+        font-size: 16px;
+    }
+
+    .split-table .pro_details {
+        padding: 18.6px 0px;
+    }
+
+    .noc_div {
+        width: 64%;
+    }
+
+
+    /*---- wiz responsive style ----*/
+    //.login_form {
+        min-height: 571px;
+    }
+
+    .login_main {
+        padding: 85px 0;
+    }
+
+    .form-table .code {
+        width: 136px;
+    }
+
+    .form-table .qty {
+        width: 50px;
+    }
+
+    .form-table th, .form-table td {
+        padding: 10px;
+    }
+
+    .esc_pro_details {
+        padding: 8px 15px;
+    }
+
+    .merchant_detail_desc {
+        padding-left: 15px;
+    }
+
+    .esc_pro_merchant_details {
+        padding: 15px 10px;
+    }
+
+    .tbl-payment-ymingo .payment-extra-description .preview-btn {
+        float: left;
+        margin-right: 21px;
+    }
+
+    .form-table td:nth-child(2n) .code {
+        width: 210px;
+    }
+
+    .form-table td:first-child .code {
+        width: 177px;
+    }
+
+    .payment-details-desc .preview-btn button {
+        margin-top: 0px;
+    }
+
+    .tbl-payment-ymingo {
+    }
+
+    .payment-extra-description .preview-btn {
+        margin: initial;
+    }
+    /*=======split preview=======*/
+    .member_list {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .member:before {
+        padding: 20px 20px;
+        margin-right: 5px;
+        background-size: 90%;
+    }
+
+    .confirm_footer {
+        margin-top: 12px;
+    }
+
+    .btn_pay_now .btn_login {
+        padding: 9.5px 15px;
+    }
+
+    .split_preview_main .col-xs-5 {
+        width: 240px;
+    }
+
+    .split_preview_main .col-xs-2 {
+        width: 116px;
+    }
+
+    .split_preview_main .col-xs-3 {
+        width: 118px;
+    }
+
+    .member_list p {
+        font-size: 14px;
+    }
+
+    .member_list h1 {
+        font-size: 18px;
+    }
+
+    .step-3 .member_list h1 {
+        margin-bottom: 2px;
+    }
+
+    /*=======payment method=======*/
+
+    .go_bk.f1-buttons {
+        float: none;
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .step-2 .go_bk.f1-buttons {
+        margin-top: 0;
+    }
+
+    .go_bk button.btn_login.btn {
+        margin-top: 12px;
+    }
+
+    .step-2 .go_bk button.btn_login.btn {
+        margin-top: 0;
+    }
+
+    .page_title_content p {
+        font-size: 14px;
+    }
+
+    .participant-page .go_bk.f1-buttons {
+        float: right;
+    }
+
+    .participant-page .split-table .preview-details {
+        margin-top: 0px;
+    }
+
+    .participant-page .go_bk.f1-buttons {
+        margin-top: 0px;
+    }
+
+    .participant-page .step-2 .split-table {
+        min-height: 334px;
+    }
+
+    .participant-page .step-2 .form-table td:first-child {
+        width: 140px;
+    }
+
+    .logo {
+        margin-top: 4px;
+    }
+
+    .header_main .h_login {
+        margin-top: 5px;
+    }
+
+    .header_main .menu {
+        margin-top: 6px;
+    }
+
+    input.ammount {
+        width: 80%;
+    }
+}
+/*----end of 1199----*/
+
+@media screen and (max-width: 991px) {
+
+    .login_form {
+        min-height: 240px;
+    }
+
+    .payment_cont h5 {
+        font-size: 14px;
+    }
+
+    .menu .nav li a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+    .logo a {
+        font-size: 26px;
+    }
+
+    .book-info-content {
+        width: 415px;
+    }
+
+    .book-now-info p {
+        margin-bottom: 17px;
+    }
+
+    .book-now-info h3 {
+        font-size: 18px;
+    }
+
+    .book-now-info .map-purchse-btn {
+        margin-top: 20px;
+    }
+
+    .book-now-info a {
+        font-size: 16px;
+    }
+
+    .map-info h4 {
+        font-size: 22px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .venu-hours-info {
+        margin: auto;
+        display: table;
+        text-align: center;
+    }
+
+    .map-info .venu-hours-info div.day, .map-info .venu-hours-info div.time {
+        width: 48%;
+    }
+
+    .banner-top-yamigo .banner-content h3 {
+        font-size: 36px;
+        margin-bottom: 3px;
+    }
+
+    .banner-top-yamigo .banner-content h4 {
+        font-size: 24px;
+    }
+
+    .banner-top-yamigo {
+        min-height: 480px;
+    }
+
+        .banner-top-yamigo .banner-content {
+            padding-top: 30px;
+        }
+
+    .banner-content img {
+        margin: 15px auto;
+        display: table;
+        width: 500px;
+    }
+
+    .about-section p {
+        line-height: 1.5;
+    }
+
+    .title-page {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .date-time-yamingo-table .date-time-table-data {
+        padding: 10px 10px;
+        height: 60px;
+    }
+
+        .date-time-yamingo-table .date-time-table-data:nth-child(2n), .date-time-yamingo-table .date-time-table-title:nth-child(2n) {
+            width: 325px;
+        }
+
+        .date-time-yamingo-table .date-time-table-data:nth-child(4n), .date-time-yamingo-table .date-time-table-title:nth-child(4n) {
+            width: 65px;
+        }
+    /*    .table-scroll   {  overflow-x: scroll; }*/
+    .activity-yamingo-table .book-activity {
+        width: 100%;
+        padding-right: 25px;
+    }
+
+    .book-yamingo-section {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contact-section h3 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .contact-section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+    .conatct-title {
+        margin-bottom: 30px;
+    }
+
+    .faqs-title {
+        margin-bottom: 25px;
+    }
+
+    .faqs-section {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    /*--- 10-11-db ---*/
+    .h_login a {
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-left: 20px;
+    }
+
+    .menu .navbar {
+        min-height: auto;
+    }
+
+    .f1 {
+        padding: 10px 0 0;
+    }
+
+    .top-content {
+        /*        padding: 50px 0;*/
+    }
+
+    .f1-buttons {
+        margin-top: 25px;
+    }
+
+    .f1-steps {
+        margin-bottom: 25px;
+    }
+
+    .page_title_content h1 {
+        font-size: 20px;
+    }
+
+    .member_list td:first-child, .member_list td:nth-child(2n), .member_list td:nth-child(4n-1), .member_list td:nth-child(4n) {
+        width: 100%;
+    }
+
+    .member, .will_pay {
+        padding-left: 0;
+        width: fit-content;
+        display: table;
+    }
+
+    .member_list h1 {
+        font-size: 17px;
+    }
+
+    table.member_list {
+        border-bottom: 0;
+        padding-bottom: 0px;
+        padding-top: 0;
+    }
+
+    .step-3 .confirm_footer {
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .confirm_footer .btn_pay_now {
+        margin-left: 0;
+    }
+
+    .btn_pay_now .btn_login {
+        margin: 0;
+        display: block;
+        float: left;
+    }
+
+    .btn_right {
+        margin-left: 0;
+        text-align: center;
+    }
+
+        .btn_right p {
+            line-height: 20px;
+        }
+
+        .btn_right br {
+            display: none;
+        }
+
+    .f1-buttons .btn {
+        font-size: 16px;
+    }
+
+    .new_card {
+        padding: 30px 17px;
+    }
+
+        .new_card h1 {
+            font-size: 17px;
+        }
+
+    .payment_method_main input[type='radio'] {
+        height: 16px;
+        width: 16px;
+    }
+
+    .top_space {
+        margin-top: 15px;
+    }
+
+    .new_card .form-control, .control {
+        height: 40px;
+    }
+
+    .new_card .btn_pay_now .btn_login {
+        margin: inherit;
+    }
+
+    .f1-buttons .btn-previous {
+        margin-right: 6px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .page_title_content p {
+        font-size: 14px;
+    }
+
+    .page_title {
+        margin-bottom: 25px;
+    }
+
+    #transaction-table-Fields {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .payment-extra-description h4 {
+        font-size: 16px;
+    }
+
+    .login-befor-payment .form-group, .login-form-befor-payment .form-group {
+        margin-top: 20px;
+    }
+
+    .create-ac-btn {
+        margin-top: 20px;
+    }
+
+        .create-ac-btn button {
+            font-size: 14px;
+            padding: 10px 18px;
+        }
+
+    .btn_login {
+        font-size: 16px;
+        padding: 8.5px 34.8px;
+    }
+
+    .forgot_pwd_link {
+        padding-left: 20px;
+    }
+
+    .payment-details-desc p {
+        font-size: 14px;
+    }
+
+    .split-table .pro_details {
+        padding: 8px 0px;
+    }
+
+    .noc_div {
+        width: 80%;
+    }
+
+
+    /*---- wiz responsive style ----*/
+    .menu .nav li a {
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 15px;
+    }
+
+    .login_main {
+        padding: 75px 0;
+    }
+
+    .esc_pro_merchant_details {
+        padding: 15px 15px;
+    }
+
+    .merchant_detail_desc {
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .merchant_detail_img {
+        display: table;
+        float: none;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .form_title h1 {
+        font-size: 18px;
+        padding: 16px 26px;
+    }
+
+    .form_content {
+        padding: 28px 17px;
+    }
+
+    .esc_pro_details {
+        padding: 8px 16px;
+    }
+
+    .esc_pro_merchant_details {
+        padding: 15px 10px;
+    }
+
+    .merchant_detail_desc h3 {
+        font-size: 16px;
+    }
+
+    .split-table .esc_product img, .split-table .esc_pro_merchant_details {
+        margin: auto;
+    }
+    /*    .split-table .login_form{overflow-x: scroll;}*/
+    .split-table .login_main {
+        padding: 30px 0;
+    }
+
+    .split-table .form_title h1 {
+        text-align: center;
+    }
+
+    .split-table .form_content .btn_grp, .split-table .form_content .btn_grp_2 {
+        margin: 5px auto;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .split-table .coustom_cb[type="checkbox"]:not(:checked) + label, .split-table .coustom_cb[type="checkbox"]:checked + label {
+        margin: auto;
+        display: table;
+    }
+
+    .split-table .btn_guest, .split-table .btn_register {
+        font-size: 16px;
+        padding: 9.5px 20px;
+        margin: 10px auto;
+    }
+
+    .split-table .btn_login {
+        font-size: 16px;
+        padding: 9px 25px;
+        margin: 10px auto;
+        display: table;
+    }
+
+    .split-table .forgot_pwd_link {
+        padding: 0;
+    }
+
+    .transaction-info {
+        padding: 25px 10px;
+        margin-bottom: 20px;
+    }
+
+    .tran-row, .traction-details span {
+        width: 50%;
+    }
+
+    .payment-table {
+        margin: auto;
+    }
+
+    .payment-details-desc {
+        margin: 0px auto;
+        text-align: left;
+    }
+
+    .remaining-group .esc_product, .remaining-group .login_form {
+        width: 500px;
+        margin: 15px auto;
+    }
+
+    .remaining-group .payment-table, .remaining-group .esc_product_img img {
+        margin: auto;
+    }
+
+    .esc_pro_merchant_details .merchant_detail_img img {
+        width: 50px;
+    }
+
+    .esc_pro_merchant_details .merchant_detail_desc {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .tbl-payment-ymingo .payment-details-desc .preview-btn button {
+        margin-top: 0px;
+    }
+
+    .esc_product img {
+        width: 30px;
+    }
+
+    
+    .pro_details {
+        padding: 7px 0px;
+    }
+
+    .merchant_detail_desc p {
+        font-size: 16px;
+    }
+    /*    .split-table .table_scroll_ymi {overflow-x: scroll;}*/
+    .no-thanks-btn, .preview-btn {
+    }
+
+    .no-thanks-btn {
+        float: left;
+    }
+    /*    .member-scroll{ overflow-x: scroll;}*/
+    table.member_list {
+        width: 100%;
+    }
+
+    .confirm_footer .btn_pay_now {
+        margin-left: 20px;
+        float: none;
+        display: table;
+    }
+    /*========split preview=========*/
+    .member_list h1 {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .member_list p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .member:before {
+        padding: 11px 12px;
+    }
+
+    .btn_right p {
+        float: none;
+        text-align: left;
+    }
+
+    .btn_right {
+        margin-right: 0;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .btn_pay_now .btn_login {
+        padding: 8px 14px;
+        font-size: 16px;
+    }
+    /*========payment method=======*/
+    .payment_detail ul {
+        padding-left: 0px;
+    }
+
+    .pay_radio_btn1 {
+        margin-left: 0px;
+    }
+
+    .pay_radio_btn2 {
+        margin-left: 4px;
+    }
+
+    .payment_method_main .login_form {
+        /*        height: 870px;*/
+    }
+
+    /*===========group member payment===========*/
+    .pay_just .radio-inline + .radio-inline {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    .pay_amount {
+        padding: 25px 10px 25px 18px;
+    }
+
+    .pay_just {
+        margin-bottom: 30px;
+    }
+
+    .payment_method_main .radio input[type="radio"], .payment_method_main .radio-inline input[type="radio"] {
+        margin-left: -22px;
+    }
+
+    .payment_method_main .radio-inline {
+        padding-left: 15px;
+    }
+
+    .split_preview_main .col-xs-5 {
+        width: 215px;
+    }
+
+    .go_bk.f1-buttons {
+        float: none;
+        text-align: center;
+        width: 100%;
+        display: table;
+        padding-top: 15px;
+    }
+
+    .go_bk button.btn_login.btn {
+        margin: 0;
+        padding: 9px 14px !important;
+    }
+
+    .btn_go.btn {
+        margin-left: 10px;
+        float: left;
+        display: block;
+    }
+
+    .step-3 .member_list td, .step-3 .member_list th {
+        padding: 6px 10px;
+    }
+
+    .form-table td:first-child {
+        /*        background-color: #f7f7f7;*/
+    }
+
+    .step-3 #customFields tbody tr {
+        border-top: 3px solid #59b795;
+    }
+
+    .f1 .f1-buttons .btn {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+
+    .no-thanks-btn button {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .step-4 .btn_pay_now .btn_login {
+        float: none;
+    }
+
+    .lock-pay {
+        width: 14px;
+        margin-right: 8px;
+    }
+
+    .step-3 .member_list h1 {
+        float: left;
+        margin-right: 15px;
+        margin-top: 1px;
+    }
+
+    .step-3 .member_list .member h1 {
+        float: left;
+        margin-right: 15px;
+        margin-top: 3px;
+    }
+
+    .step-3 .member_list .member p {
+        float: left;
+        margin-top: 2px;
+        margin-right: 15px;
+    }
+
+    .step-3 .member_list p {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .go_bk.f1-buttons {
+        width: auto;
+    }
+
+    .go_bk.f1-buttons {
+        padding-top: 0;
+    }
+
+    .step-3 .member_list td:first-child {
+        width: 100%;
+    }
+
+
+    .participant-page .btn_go.btn, .participant-page .split-table .btn_login {
+        display: inline-block;
+        margin-left: 10px !important;
+    }
+
+    .step-1 .f1-buttons {
+        margin-top: 10px;
+    }
+
+    input.ammount {
+        width: 100%;
+    }
+
+    img.visa_img {
+        padding-bottom: 20px;
+        padding-left: 40%;
+    }
+
+    .trusplit-table td:first-child {
+        width: 15%;
+    }
+
+    .trusplit-table td:nth-child(2) {
+        width: 31%;
+    }
+     .trusplit-table td:nth-child(3) {
+        width: 18%;
+    }
+      .trusplit-table td:nth-child(4) {
+        width: 17%;
+    }
+
+    .trusplit-table td:nth-child(5) {
+        width: 19%;
+    }
+}
+/*----end of 991----*/
+
+@media screen and (max-width: 767px) {
+    div#ammounts_box {
+        padding-left: 40%;
+    }
+
+
+
+    div#ammounts_box {
+        padding-bottom: 0px;
+    }
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    div#responsive_group {
+        display: -webkit-box;
+    }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    input.ammount {
+        width: 100%;
+    }
+
+    .addCF:before, .addCF-split:before {
+        left: -18px;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+        .menu .navbar-nav {
+            position: absolute;
+            width: 100%;
+            background: #fff;
+            z-index: 999;
+            margin: auto;
+            display: table;
+        }
+
+        .menu .navbar-default {
+            width: 100%;
+        }
+
+    .esc_pro_merchant_details {
+            padding: 10px 10px 10px 16px;
+    }
+
+    .step-2 .go_bk.f1-buttons {
+        margin-top: 20px;
+    }
+
+    .menu .nav li a {
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+    .book-info-content {
+        width: 100%;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .img-map-info {
+        width: 100%;
+        margin: 0px auto;
+        display: table;
+        text-align: center;
+    }
+
+    .book-now-btn button {
+        font-size: 22px;
+    }
+
+    .book-now-btn {
+        margin: 15px auto;
+    }
+
+    .book-now-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .banner-top-yamigo {
+        min-height: 300px;
+    }
+
+        .banner-top-yamigo .banner-content h3 {
+            font-size: 30px;
+        }
+
+        .banner-top-yamigo .banner-content h4 {
+            font-size: 22px;
+        }
+
+    .logo a {
+        text-align: left;
+        margin: auto;
+        display: initial;
+        float: left;
+    }
+
+    .img-map-info img {
+        width: 200px;
+    }
+
+    .map-info-bg {
+        padding: 20px 0px;
+    }
+
+    .navbar-toggle {
+        margin-top: 0px;
+    }
+
+    .banner-top-yamigo .banner-content {
+        padding-top: 30px;
+    }
+
+    .banner-content img {
+        margin: 15px auto;
+        display: table;
+        width: 400px;
+    }
+
+    .title-page {
+        font-size: 26px;
+    }
+
+    .about-section p {
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .date-time-yamingo-table {
+        width: 680px;
+    }
+
+    .table-title-activity, .book-event-title h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .contact-section h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact-section {
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+
+    .contct-btn-right {
+        float: none;
+        text-align: left;
+    }
+
+    .book-yamigo-border {
+        padding-bottom: 0px;
+    }
+
+    /*---- 10-11-db ----*/
+    .date-time-yamingo-table .date-time-table-title {
+        display: none;
+    }
+
+    .date-time-yamingo-table .date-time-table-data {
+        display: block;
+    }
+
+        .date-time-yamingo-table .date-time-table-data:first-child, .date-time-yamingo-table .date-time-table-data:nth-child(2n),
+        .date-time-yamingo-table .date-time-table-data:nth-child(4n-1), .date-time-yamingo-table .date-time-table-data:nth-child(4n),
+        .date-time-yamingo-table .date-time-table-data:nth-child(5n) {
+            width: 100%;
+        }
+
+    .date-time-yamingo-table {
+        border: none;
+        width: 100%;
+    }
+
+        .date-time-yamingo-table .date-time-table-data {
+            height: auto;
+        }
+
+    .header_main {
+        padding: 12px 0;
+    }
+
+    .h_login {
+    }
+
+    .navbar-toggle {
+        top: 0;
+        right: 0px;
+        margin-right: 0;
+        position: absolute;
+    }
+
+    #myNavbar {
+        margin-top: 5px;
+    }
+
+    table.responsive.payment-table th {
+        display: none;
+    }
+
+    .top-content {
+        /*        padding: 40px 0;*/
+    }
+
+    .f1-buttons {
+        margin-top: 10px;
+    }
+
+    .f1-steps {
+        margin-bottom: 15px;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp {
+        margin-right: 26px;
+    }
+
+    table.responsive#transaction-table-Fields tr {
+        margin-bottom: 0;
+    }
+
+    table.responsive#paymentFields tr:first-child {
+        margin-bottom: 0;
+    }
+
+    .table_scroll_ymi table.responsive#customFields th {
+        display: none;
+    }
+    /*.step-2 .form-table td:first-child, .step-2 .form-table td:nth-child(2n), .form-table td:nth-child(4n-1), .form-table td:nth-child(5n) { width: 50%; }*/
+    /*.table_scroll_ymi table.responsive#customFields tr:nth-child(2) td:last-child { display: none; }*/
+
+    .table_scroll_ymi table.trusplit-table td {
+        width:100%;
+    }
+
+    /*.table_scroll_ymi table.trusplit-table .cl1 {
+        width: 50%;
+    }
+
+    .table_scroll_ymi table.trusplit-table .cl2 {
+        display: none;
+    }
+
+    .table_scroll_ymi table.trusplit-table .cl3 {
+        width: 50%;
+    }
+
+    .table_scroll_ymi table.trusplit-table .cl4 {
+        display: none;
+    }
+
+    .table_scroll_ymi table.trusplit-table .cl5 {
+        display: none;
+    }*/
+
+    .table_scroll_ymi1 table.responsive tr td {
+        width: 100% !important;
+    }
+
+    .form-table td:nth-child(5n) {
+        text-align: center;
+    }
+
+        .form-table td:nth-child(5n) .td-text, table.date-time-yamingo-table.responsive .date-time-table-data:nth-child(5n) .td-text { /*width: 74%;*/
+            text-align: left;
+            /*margin-top: -25px;*/
+        }
+
+    table.form-table {
+        border: 0;
+        padding: 5px;
+    }
+
+    .pop_contant {
+        padding: 15px;
+    }
+    /*.step-2 .form-table th, .step-2 .form-table td {
+    padding: 5px 0px;
+}*/
+    .contct-btn-right button {
+        font-size: 14px;
+        padding: 9px 25px;
+    }
+    /*.table_scroll_ymi table.responsive#customFields tr:first-child { display: none; }*/
+    .page_title {
+        width: 100%;
+    }
+
+    .contct-form-book input {
+        padding: 9px 10px;
+    }
+
+    .addCF, .addCF:hover, .addCF:visited, .addCF:focus, .addCF:active {
+        left: 18px;
+    }
+
+    .total-table span {
+        font-size: 18px;
+    }
+
+    .preview-btn button, .no-thanks-btn button {
+    }
+
+    .btn_pay_now .btn_login {
+        font-size: 14px;
+    }
+
+    .page_title_content h1 {
+        font-size: 20px;
+        padding-bottom:10px;
+    }
+
+    .login_form {
+        padding: 0;
+    }
+
+    .confirm_footer .btn_pay_now {
+        margin-left: 0;
+    }
+
+    .btn_right {
+        margin: 15px 0px 0;
+    }
+
+    .step-3 .confirm_footer {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .payment-table {
+        border: 0;
+    }
+
+    .activity-yamingo-table .activity-table-data:last-child {
+        width: 200px;
+    }
+
+    .step-1, .step-2, .step-3, .step-4 {
+        padding: 0;
+    }
+
+    .grp_pay_option {
+        width: fit-content;
+        margin: 20px auto 0;
+    }
+
+    .btn_payment {
+        padding-top: 0px;
+    }
+
+    .noc_div {
+        width: 372px;
+    }
+
+    .book-now-info p {
+        margin-bottom: 12px;
+        text-align: left;
+    }
+
+
+    /*---- wiz responsive style ----*/
+    .display_right {
+        float: none;
+    }
+
+    .menu ul li a {
+        padding: 0;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .logo img {
+        margin: auto;
+        display: table;
+        text-align: center;
+    }
+
+    .menu .navbar-nav {
+        width: 100%;
+    }
+
+    .page_title_content h1 {
+        text-align: center;
+    }
+
+    .page_title {
+        padding: 20px 15px;
+    }
+
+    .page_title_content p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .esc_product, .login_form, .table-bg-ymigo, .payment_table_main .login_form1, .pay_just {
+        width: 100%;
+        margin: 0px auto 25px;
+        height: auto;
+    }
+
+    .split-table .esc_product, .split-table .login_form {
+        min-height: auto;
+        width: 100%;
+    }
+
+    .login_main {
+        padding: 30px 0;
+    }
+
+    .form_title h1 {
+        text-align: center;
+    }
+
+    .form_content .btn_grp, .form_content .btn_grp_2 {
+        margin: 5px auto;
+        padding-top: 10px;
+    }
+
+    .btn_guest, .btn_register {
+        font-size: 16px;
+        padding: 9.5px 20px;
+        margin: 10px auto;
+    }
+
+    .btn_login {
+        font-size: 16px;
+        padding: 9px 15px;
+    }
+
+    .forgot_pwd_link {
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .login_form {
+        min-height: auto;
+        width: 100%;
+    }
+
+    .form_content {
+        padding: 15px 15px;
+    }
+
+    .f_links {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .footer_main {
+        padding: 20px 0 30px;
+    }
+
+    .f_links li {
+        line-height: 1.9;
+    }
+
+    .f_links li {
+        padding: 0 8px;
+    }
+
+        .f_links li a, .footer_bottom p {
+            font-size: 15px;
+        }
+
+    .menu .nav li a {
+        font-size: 15px;
+        padding-bottom: 7px;
+    }
+
+    .add-btn-table, .condition-text, .total-table {
+        /*        float: none;margin:10px auto; text-align: center;*/
+    }
+
+    .preview-details {
+        margin-top: 10px;
+    }
+
+    .transaction-info {
+        min-height: 190px;
+    }
+
+    .login-befor-payment {
+        padding: 15px 0px;
+    }
+
+        .login-befor-payment .form-group {
+            margin-top: 15px;
+        }
+
+    .payment-extra-description h4 {
+        text-align: center;
+    }
+
+    .login-befor-payment .form-control, .login-form-befor-payment .form-control {
+        width: 100%;
+    }
+
+    #transaction-table-Fields {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .tbl-payment-ymingo .payment-extra-description .preview-btn {
+        margin: auto;
+        display: table;
+        float: none;
+    }
+    /*    .table_scroll_ymi{overflow-x: scroll;}*/
+    .tbl-payment-ymingo {
+        min-height: auto;
+    }
+    /*======split preview======*/
+    /*    .will_pay{text-align: center;}*/
+
+
+
+    /*======payment method======*/
+    /*.cvc_code .col-sm-6{ padding-right: 0;}
+    .expiry_date .col-sm-6{padding-left: 0; }*/
+    .save_card h1, .new_card h1 {
+        text-align: center;
+    }
+
+    .new_card {
+        padding: 25px 17px;
+    }
+
+    .top_space {
+        margin-top: 5px;
+    }
+    /*.expiry_date.row{margin-left: 0;}*/
+    .member_list h1 {
+        font-size: 16px;
+    }
+
+    .payment_method_main .login_form {
+    }
+
+    .save_card_check {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-default .navbar-toggle {
+        top: -36px;
+    }
+
+    .header_main .h_login {
+        margin-right: 50px;
+        margin-top: -36px;
+    }
+
+    .menu .navbar-nav {
+        position: relative;
+    }
+
+    .h_login {
+        margin-right: 55px;
+    }
+
+        .h_login a {
+            font-size: 14px;
+            padding: 9px 16px;
+        }
+
+    .modal-dialog .login_form {
+        margin: 0;
+    }
+
+    .merchant_detail_desc h3 {
+        max-width: 100%;
+    }
+
+    .pro_details {
+        /*        width: 48%;
+                border: 1px solid #d6d6d6 !important;*/
+        /*        margin-bottom: 15px;*/
+        /*        height: 116px;*/
+        padding: 6px;
+    }
+
+    .esc_pro_details {
+        margin-bottom: 30px;
+        /*        display: -webkit-box; 
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex; 
+                display: flex;
+                flex-wrap: wrap;
+                -webkit-flex-wrap: wrap;*/
+    }
+
+    .step-2 .table_scroll_ymi tbody {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .step-2 .login_form.split-table {
+        padding: 20px 0px;
+    }
+
+    .login_form.split-table {
+        padding-top: 0px !important;
+    }
+
+    h5#name_detail {
+        margin-left: -0px;
+    }
+    /*.cvc_code{
+        padding-left:22px !important;
+    }*/
+
+    .btn_filter.text-right.checkout_back_btn {
+        margin-top: 10px;
+    }
+    /*.step-2 .table-extra-content {
+        padding: 13px 0;
+    }*/
+    .step-2 .grp_pay_option {
+        margin: 10px 0;
+    }
+
+    #customFields tbody tr td:nth-child(even) {
+        /*        background: #f9f9f9*/
+    }
+
+    .step-2 table.responsive tr {
+        border: 1px solid #59b795;
+        margin-bottom: 5px;
+    }
+
+    #customFields1 .remCF {
+        display: none;
+    }
+
+    #customFields1 .resclose {
+        display: block;
+    }
+#table_scroll_ymi .resclose {
+        display: block;
+    }
+ .resclosetd {
+        display: block;
+    }
+
+
+    .textboxrow td:first-child {
+        /*margin-top: 20px;*/
+    }
+
+    .taxspan {
+        display: block;
+        width: 45%;
+        float: left;
+    }
+
+    .totalspan {
+        display: block;
+        width: 45%;
+        float: left;
+    }
+
+
+    table.responsive td::before, table.responsive td .td-text {
+        width: 100%;
+    }
+
+    .step-3 #customFields {
+        max-width: 100%;
+        /*        max-width: 300px;*/
+        display: block;
+        margin-top: 15px;
+    }
+
+    .step-3 .login_form {
+        padding: 0 15px;
+    }
+
+    .step-4 .btn_login {
+        margin: 0 !important;
+    }
+
+    .step-5 tbody {
+        padding: 15px;
+    }
+
+        .step-5 tbody tr {
+            max-width: 100%;
+            /*max-width: 389px;*/
+            border-top: 3px solid #59b795;
+        }
+
+    .step-5 .table-bg-ymigo table tbody tr:first-child {
+        display: none;
+    }
+
+    .step-5 tbody tr td:nth-child(odd) {
+        background: #f9f9f9;
+    }
+
+    .step-1 tbody {
+        max-width: 100%;
+        /*        max-width: 375px;*/
+        margin: auto;
+    }
+
+        .step-1 tbody tr td:nth-child(odd) {
+            background: #f9f9f9;
+        }
+
+    .banner-top-yamigo .banner-content p {
+        text-align: left;
+    }
+
+    .merchant_detail_img {
+        display: inline-block;
+        float: left;
+        text-align: left;
+        margin: 0px auto;
+    }
+
+    .step-1 .date-time-yamingo-table tr {
+        border-top: 3px solid #59b795;
+    }
+
+        .step-1 .date-time-yamingo-table tr:first-child {
+            display: none;
+        }
+
+    table.date-time-yamingo-table.responsive {
+        margin-top: 14px;
+    }
+
+    .merchant_detail_desc {
+        padding-left: 0px;
+        text-align: left;
+        width: auto;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    .esc_product img {
+        width: 19px;
+    }
+    /*.split-table .pro_details {
+        padding: 8px 0px 8px 18px;
+    }
+    .esc_pro_details .pro_details {
+        padding: 8px 8px 8px 18px;
+    }
+    .esc_pro_merchant_details {
+        padding: 10px 10px 0px 16px;
+    }*/
+    .esc_pro_merchant_details .merchant_detail_desc {
+        padding-top: 0px;
+        padding-bottom: 0;
+        padding-left: 0px;
+        width:100%;
+    }
+
+    /*.add-btn-table {
+        padding-left: 7px;
+    }*/
+    .border-bottom-activity-table {
+        padding: 6px 0px;
+        margin-bottom: 14px;
+    }
+
+    .merchant_detail_desc p {
+           float: left;
+        position: relative;
+        font-size: 14px;
+        padding-top: 0px;
+    }
+
+    .merchant_detail_desc h3 {
+          float: left;
+        position: relative;
+        line-height: inherit;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .esc_pro_merchant_details .merchant_detail_img img {
+        width: 100px;
+            display: none;
+    }
+
+    .header_main .menu {
+        margin-top: 0;
+    }
+
+    label.col-lg-5.col-md-5.col-sm-4.col-form-label.detail_name {
+        PADDING-RIGHT: 0PX !important;
+    }
+
+    #step-1 tr {
+        display: block;
+        border: 0;
+    }
+
+    .panel-select .book-activity {
+        width: 100px;
+    }
+
+    .table-line {
+        border-top: 3px solid #59b795;
+    }
+
+    table.responsive td::before {
+        padding-bottom: 5px;
+    }
+
+
+    body {
+        /* Set "my-sec-counter" to 0 */
+        counter-reset: my-sec-counter;
+    }
+
+    .number-row:before {
+        /*width: 40px; */
+        /* position: absolute; */
+        /*left: 0px;
+    text-align: left;
+    counter-increment: my-sec-counter;
+    content: " " counter(my-sec-counter) " ";
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'RobotoMedium';
+    width: 100%;
+    background-color: #59b795;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-bottom: 8px;*/
+        /*background-image: url(../img/close-icon.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;*/
+    }
+
+
+    .page_title_content p {
+        font-size: 14px;
+    }
+
+    .participant-page .table_scroll_ymi table.responsive#customFields tr:nth-child(2) td:last-child {
+        display: block;
+    }
+
+    .participant-page .step-2 .form-table td:first-child {
+        width: 100%;
+    }
+
+        .participant-page .step-2 .form-table td:first-child .code, .participant-page .step-2 .form-table td:nth-child(2n) .code {
+            width: 200px;
+        }
+
+    .participant-page table.responsive td::before {
+        width: 90px;
+    }
+
+    .participant-page .form-table .code {
+        width: 250px;
+    }
+
+    .participant-page .form-table .code {
+        width: 200px;
+    }
+
+    .participant-page .merchant_detail_desc p {
+        float: none;
+    }
+
+    .participant-page .merchant_detail_desc h3 {
+        margin-left: 0;
+    }
+
+    .participant-page .esc_pro_merchant_details .merchant_detail_desc {
+        padding-top: 0;
+    }
+
+    .participant-page .merchant_detail_desc {
+        margin-top: 0;
+    }
+
+    .logo {
+        margin-top: 0px;
+    }
+
+    .game-title-main h3 {
+        font-size: 24px;
+    }
+
+    .book-now-info h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .panel-collapse {
+        border-radius: 0;
+    }
+
+    .split-table .preview-details {
+        margin-top: 20px;
+    }
+
+    .step-1 .table-line > tbody > tr > .date-time-table-data:nth-child(1):before {
+        content: 'Time';
+    }
+
+    .step-1 .table-line > tbody > tr > .date-time-table-data:nth-child(2):before {
+        content: 'Activity';
+    }
+
+    .step-1 .table-line > tbody > tr > .date-time-table-data:nth-child(3):before {
+        content: 'Available';
+    }
+
+    .step-1 .table-line > tbody > tr > .date-time-table-data:nth-child(4):before {
+        content: 'Total';
+    }
+
+    .step-1 table.date-time-yamingo-table {
+        border: 1px solid #eeeeee;
+    }
+
+        .step-1 table.date-time-yamingo-table:nth-child(1) {
+            border: 0px solid #eeeeee;
+        }
+
+    #step-1 tr {
+        margin-bottom: 0;
+    }
+
+    .checkout_box {
+        padding-top: 5px;
+    }
+
+    hr.border {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    img.visa_img {
+        padding-top: 0px;
+    }
+}
+/*----end of 767----*/
+
+@media screen and (max-width: 570px) {
+
+    .pay_box {
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .book-now-info p {
+        margin-bottom: 19px;
+        line-height: 21px;
+    }
+
+    
+
+
+    /*.exp_date {
+    width: 20% !important;
+}*/
+
+}
+
+@media screen and (max-width: 568px) {
+    .banner-top-yamigo .banner-content h3 {
+        font-size: 26px;
+    }
+
+    .banner-top-yamigo .banner-content h4 {
+        font-size: 18px;
+    }
+
+    .banner-top-yamigo {
+        min-height: 225px;
+    }
+
+
+    .new_card select{
+        width:100px;
+    }
+
+    .book-now-btn button {
+        font-size: 18px;
+        padding: 9px 15px;
+    }
+
+    .map-info .venu-hours-info div {
+        font-size: 16px;
+    }
+
+    .map-info h4 {
+        font-size: 20px;
+    }
+
+    .map-info .venu-hours-info div.day {
+        padding-top: 12px;
+    }
+
+    .footer_bottom {
+        padding: 15px 0;
+    }
+
+    .title-page {
+        font-size: 24px;
+    }
+
+    .contact-section h3 {
+        font-size: 22px;
+    }
+
+    .contact-section .contct-form-book input {
+        margin-bottom: 12px;
+        padding: 8px 8px;
+    }
+
+    .contact-section .contct-form-book .text-area-contact {
+        min-height: 85px;
+        padding: 8px 8px;
+    }
+
+    .about-title {
+        margin-bottom: 15px;
+    }
+
+    .conatct-title {
+        margin-bottom: 20px;
+    }
+
+    .faqs-content p {
+        padding: 15px 15px;
+        line-height: 1.5;
+    }
+
+    .faqs-content-title h4 {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    /*--- 10-11-db ---*/
+    /*    .logo a { text-align: center; margin: auto;  display: table;} */
+    /*    .header_main .col-xs-6 { width: 100%; }*/
+    .page_title {
+        padding: 15px;
+    }
+
+    .split-table .grp_pay_option .radio-inline {
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .grp_pay_option .radio-inline + .radio-inline {
+        margin-left: 0;
+    }
+
+    .grp_pay_option p {
+        font-size: 14px;
+    }
+
+    .noc_div {
+        width: 372px;
+    }
+
+    .h_login .h_btn_register {
+        margin-left: 10px;
+    }
+
+
+    /*---- wiz responsive style ----*/
+    /*    .page_title_content p { font-size: 18px;}*/
+    .esc_product, .table-bg-ymigo, .login_form, .split-table .esc_product, .payment_table_main .login_form1, .pay_just, .split-table .login_form, .remaining-group .esc_product, .remaining-group .login_form, .page_title {
+        width: 100%;
+    }
+
+    .form_title h1 {
+        font-size: 18px;
+    }
+    /*    .logo img { width: 150px;}*/
+    .payment-table {
+        margin: auto;
+        width: 100%;
+    }
+
+    .payment-details-desc p {
+        font-size: 14px;
+    }
+
+    .payment-extra-description h4 {
+        font-size: 16px;
+    }
+
+    .btn_guest, .btn_register {
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    .btn_login {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .create-ac-btn button {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .esc_product, .table-bg-ymigo {
+        width: 100%;
+        margin: 0px auto 20px auto;
+        height: auto;
+        padding: 0;
+    }
+    /*    .no-thanks-btn button,.preview-btn button {  font-size: 15px;}*/
+    /*=======split preview=======*/
+
+
+
+    /*======payment method======*/
+    .save_card h1, .new_card h1 {
+        font-size: 16px;
+    }
+
+    .save_card h1 {
+        padding: 17px 17px;
+    }
+
+    .save_card {
+        height: 50px;
+    }
+
+    .visa_detail {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .pay_radio_btn2 {
+        margin-top: 10px;
+    }
+
+    .green_border {
+        height: 80px;
+    }
+
+    .height_box {
+        height: 60px;
+    }
+
+    .new_card {
+        padding: 20px 20px;
+    }
+
+        .new_card .form-control {
+            height: 40px;
+        }
+
+    .credit_card {
+        top: 10px;
+        right: 8px;
+    }
+
+    .payment_method_main .login_form {
+        height: auto;
+    }
+
+    /*===========group member payment===========*/
+
+    .pay_amount {
+        padding: 25px 20px;
+    }
+
+    .payment_method_main .pay_just label {
+        font-size: 14px;
+    }
+
+    .payment_method_main input[type='radio']:before {
+        margin: 23% auto;
+    }
+
+    .payment_table_main .login_form1 {
+        min-height: auto;
+    }
+
+    .f1-step .f1-step-icon {
+        background-size: 21px 21px;
+    }
+
+    .f1-step-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .f1-progress {
+        top: 25px;
+    }
+
+    .f1-step.activated .f1-step-icon {
+        background-size: 21px 21px;
+    }
+
+    .panel-select .book-activity {
+        width: 88px;
+        padding: 6px 10px;
+    }
+
+    .f1 .f1-buttons.step-1-btn .btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .participant-page {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+}
+/*----end of 568----*/
+
+@media screen and (max-width: 480px) {
+    i.fa.fa-question {
+        display: unset;
+    }
+
+    a.see_all_view {
+        bottom: 115px;
+        /*left: 1px;*/
+    }
+
+    /*a.see_less_view{
+        margin-top:12px;
+        text-align: left;
+    padding: 10px 85px;
+    }
+   a.see_all_view {
+        margin-top:12px;
+        text-align: left;
+    padding: 10px 85px;
+    }*/
+
+    .row.checkout {
+        margin-bottom: 0px;
+    }
+
+
+    .card_number {
+        padding-left: 2px !important;
+    }
+
+    card_number {
+        padding: 0px !important;
+    }
+
+    table.responsive td::before {
+        text-align: right;
+    }
+
+    img.img-responsive_game_icon {
+        display: none;
+    }
+
+    label.col-lg-5.col-md-5.col-sm-6.col-form-label.detail_name.ammount {
+        padding-left: 5%;
+    }
+
+    
+
+    .f1 {
+        padding: 0px 0 0;
+    }
+
+    .f1-steps {
+        margin-bottom: 10px;
+    }
+
+    .img-map-info img {
+        width: 150px;
+    }
+
+    .book-now-btn button {
+        font-size: 16px;
+    }
+
+    .map-info {
+        margin-top: 20px;
+    }
+
+    .navbar-toggle .icon-bar {
+        width: 18px;
+        height: 1px;
+    }
+
+    .navbar-toggle {
+        top: 0;
+        padding: 8px 8px;
+    }
+
+    .banner-top-yamigo .banner-content h3 {
+        font-size: 24px;
+    }
+
+    .about-section p {
+        font-size: 15px;
+    }
+
+    .atitle-page {
+        font-size: 22px;
+    }
+
+    .title-page {
+        font-size: 22px;
+    }
+
+    .faqs-title {
+        margin-bottom: 15px;
+    }
+
+    .faqs-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    /*    .activity-yamingo-table .activity-table-data input {  width: 135px;}*/
+
+    /*---- 10-11-db ----*/
+    .date-time-yamingo-table .date-time-table-data {
+        font-size: 13px;
+    }
+
+    .h_login a {
+        font-size: 14px;
+        padding: 7px 12px;
+        margin-left: 0;
+    }
+
+    .h_login {
+        margin-right: 45px;
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .activity-yamingo-table .activity-table-title {
+        font-size: 14px;
+        height: 20px;
+    }
+
+    .activity-yamingo-table .activity-table-data input {
+        padding: 8px 12px;
+    }
+
+    .activity-yamingo-table .book-activity {
+        padding: 8px 12px;
+        padding-right: 20px;
+    }
+
+    .activity-date-time-table {
+        padding: 10px;
+    }
+
+    .step-1 .panel-body {
+        padding: 10px;
+    }
+
+    .contct-btn-right button {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    .contct-form-book label {
+        font-size: 14px;
+    }
+
+    .contct-form-book input {
+        padding: 6px 10px;
+    }
+
+    .border-bottom-activity-table {
+        padding: 10px 0px;
+        margin-bottom: 20px;
+    }
+
+    .menu .navbar-default {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp .input-group .increment {
+        text-align: center;
+        padding: 2px 12px;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp .input-group input,
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp .input-group,
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp:nth-child(4) .input-group input,
+    .activity-yamingo-table .activity-table-data:last-child, .activity-yamingo-table .activity-table-data input {
+        width: 100%;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 8px;
+    }
+
+    .date-activity {
+        background-position: 95% 50%;
+    }
+
+    .contct-form-book input {
+        margin-bottom: 10px;
+    }
+
+    .f1-step .f1-step-icon, .f1-step.activated .f1-step-icon {
+        background-size: 18px 18px;
+    }
+
+    .top-content {
+        padding: 20px 0;
+    }
+
+    .book-yamingo-section {
+        padding-top: 10px;
+    }
+
+    .table-title-activity {
+        margin-bottom: 15px;
+    }
+
+    .step-1 .activity-yamingo-table .activity-table-data.activity_input_grp .input-group input {
+        padding: 6px 10px;
+    }
+
+    .datepicker .cell {
+        width: 25px;
+        height: 25px;
+    }
+
+    .page_title_content h1 {
+        line-height: 1.4;
+    }
+
+    .addCF, .addCF:hover, .addCF:visited, .addCF:focus, .addCF:active {
+        left: 11px;
+        font-size: 15px;
+    }
+    /*    .no-thanks-btn { margin-bottom: 0; }*/
+    .f1-buttons .btn {
+        white-space: normal;
+    }
+
+    .new_card .form-control {
+        height: 36px;
+    }
+
+    .page_title_content p {
+        font-size: 14px;
+    }
+
+    .payment-extra-description h4 {
+        font-size: 14px;
+    }
+
+    .form_label {
+        font-size: 14px;
+    }
+
+    .new_card .form-control, .control {
+        height: 36px;
+    }
+
+    .create-ac-btn button {
+        width: 100%;
+    }
+
+    .btn_login {
+        width: 100%;
+        margin: auto;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .payment-status-table .btn_login {
+        width: 100%;
+    }
+
+    .forgot_pwd_link {
+        padding-left: 0;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    .new_card .btn_pay_now .btn_login {
+        margin: auto;
+    }
+
+    .payment-extra-description {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .noc_div {
+        width: 273px;
+    }
+
+    /*--- 27-11 ---*/
+    .h_login {
+        margin-top: -33px;
+    }
+
+    .navbar-default .navbar-toggle {
+        top: -32px;
+    }
+
+
+    /*---- wiz responsive style ----*/
+    .payment-table td .fa {
+        font-size: 14px;
+        margin-right: 4px;
+    }
+
+    .tran-row {
+        font-size: 14px;
+    }
+
+    .traction-details span {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .total-table span {
+        font-size: 14px;
+    }
+    /*=======split preview========*/
+    .member_list h1 {
+        font-size: 14px;
+    }
+
+    .btn_pay_now .btn_login {
+        padding: 9px 11px 6px 11px;
+        font-size: 14px;
+    }
+
+    /*=======payment method======*/
+    .new_card p, .new_card label {
+        font-size: 14px;
+    }
+
+    .save_card h1 {
+        padding: 15px 15px;
+    }
+
+    .payment_detail ul li {
+        display: table;
+        border-right: 0;
+    }
+
+    .payment_detail {
+        padding-top: 8px;
+    }
+    /*===========group member payment===========*/
+    .payment_method_main .radio-inline {
+        padding-left: 25px;
+    }
+
+    .pay_just .radio-inline {
+        margin-left: 0px !important;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .pay_amount {
+        padding: 10px 20px;
+    }
+
+    .new_card .cd_input_box input {
+        width: 56px;
+    }
+
+    .cvc_code {
+        float: none;
+    }
+
+    .ex_date {
+        padding-left: 0px;
+    }
+
+    button.btn_register {
+        width: 100%;
+    }
+
+    .activity_input_grp-nw {
+        width: 50% !important;
+        margin-right: 0px;
+    }
+
+        .activity_input_grp-nw:nth-child(even) {
+            padding-right: 10px !important;
+        }
+
+        .activity_input_grp-nw .book-activity {
+            background-position: 97% 50%;
+        }
+
+    .step-1 .date-pic {
+        width: 50% !important;
+    }
+
+    .btn_pay_now button.btn_login.btn {
+        width: auto;
+        display: block;
+    }
+
+    .add-btn-table a {
+        font-size: 16px;
+    }
+
+    .addCF, .addCF:hover, .addCF:visited, .addCF:focus, .addCF:active {
+        font-size: 12px;
+    }
+
+        .addCF:before {
+            top: -2px;
+            left: -21px;
+        }
+
+    .header_main .h_login {
+        margin-top: -32px;
+    }
+
+    #step-1 .panel-group {
+        margin-bottom: 0;
+    }
+
+
+
+    .go_bk button.btn_login.btn {
+        width: auto;
+    }
+
+    .new_card .cd_input_box input {
+        width: 40px;
+    }
+
+    .step-3 .member_list h1 {
+        margin-top: 3px;
+    }
+
+    .step-3 .member_list .member p {
+        margin-top: 2px;
+    }
+
+    .participant-page .step-2 .form-table td:first-child .code, .participant-page .step-2 .form-table td:nth-child(2n) .code {
+        width: 100%;
+    }
+
+    .participant-page .form-table .code {
+        width: 100%;
+    }
+
+    .participant-page table.responsive td::before {
+        width: 41%;
+    }
+
+    .participant-page table.responsive td .td-text {
+        width: 58%;
+    }
+
+    .participant-page .go_bk.f1-buttons {
+        padding-top: 0;
+    }
+
+    .logo a {
+        font-size: 22px;
+    }
+
+    .step-3 .member_list .member h1 {
+        margin-top: 4px;
+    }
+
+    .esc_pro_details {
+        padding: 8px 0px;
+    }
+}
+/*----end of 480----*/
+
+@media screen and (max-width: 440px) {
+
+    .go_bk.f1-buttons {
+        margin: auto;
+        width: auto;
+    }
+
+    .no-thanks-btn, .preview-btn {
+        margin: 10px auto 0;
+        display: table;
+        float: none !important;
+    }
+
+    .step-2 .preview-btn {
+        display: inline-block;
+        float: left !important;
+    }
+
+    .step-2 .go_bk.f1-buttons {
+        float: left;
+        margin-left: 10px;
+    }
+    /*.detail_name{padding-left:52px;}*/
+
+}
+
+@media screen and (max-width: 400px) {
+    .panel-select .book-activity {
+        width: 80px;
+    }
+
+    .f1 .f1-buttons.step-1-btn .btn {
+        padding: 8px 7px;
+        margin: 10px auto 0;
+    }
+
+    .no-thanks-btn button {
+        padding: 8px 9px;
+    }
+
+    /*.merchant_detail_desc h3{
+        font-size: 12px;
+    }
+    .merchant_detail_desc p{
+        font-size: 12px;
+    }
+    .esc_pro_merchant_details{
+        padding: 10px 0px 10px 0px;
+    }*/
+
+
+}
+/*----end of 400----*/
+
+@media screen and (max-width: 360px) {
+    .book-now-info a {
+        font-size: 14px;
+    }
+
+    .banner-top-yamigo .banner-content h4 {
+        font-size: 16px;
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .map-info h4 {
+        font-size: 18px;
+    }
+
+    .map-info .venu-hours-info div {
+        font-size: 14px;
+    }
+
+    /*--- 10-11-db ---*/
+    .logo a {
+        text-align: left;
+        font-size: 20px;
+        margin: 0;
+        display: table;
+        float: none;
+    }
+
+    /*.detail_name{
+        padding-left:30px;
+    }
+  
+   .table-extra-content{
+       padding: 13px 0px;
+    margin-top: -12px;
+   }
+    .exp_date {
+    width: 38% !important;
+}*/
+    input.form-control.form_text_box {
+        /*width: 72%;*/
+    }
+
+    
+    /*    .h_login, .navbar-toggle { position: initial; }*/
+    .h_login {
+        margin-right: 50px;
+    }
+
+    .navbar-toggle {
+        margin-right: 15px;
+        margin-top: 1px;
+    }
+    /*    .header_main .col-sm-8 { margin-top: 10px; }*/
+    .header_main {
+        padding: 12px 0;
+    }
+
+    .activity-yamingo-table .activity-table-data:nth-child(2n) {
+        width: 80px;
+    }
+
+    .activity-yamingo-table .activity-table-data input.adults-number {
+        width: 65px;
+    }
+
+    .page_title_content h1 {
+    }
+
+    .new_card select {
+        width: 90px;
+        font-size:14px;
+    }
+
+    .new_card p {
+        width: 100%;
+    }
+
+    .noc_div {
+        width: 212px;
+    }
+
+    .btn_payment {
+        padding-top: 10px;
+    }
+
+
+    /*---- wiz responsive style ----*/
+
+
+    .logo a {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-right: 0;
+    }
+
+    .navbar-default .navbar-toggle {
+        top: -30px;
+    }
+
+        .navbar-default .navbar-toggle.home-menu {
+            top: -30px;
+        }
+
+    .h_login {
+        margin-top: -38px;
+    }
+
+        .h_login.home-login {
+            margin-top: -30px;
+        }
+
+
+    .step-4 .btn_payment {
+        margin-top: 0;
+    }
+    /*label#reasponsive_cardnumner{width:70px;    text-align: right;}
+     .cvc_code{
+        padding-left:0px !important;
+        
+            text-align: left;
+    }*/
+
+
+
+}
+/*----end of 360----*/
+
+
+
+@media screen and (max-width: 340px) {
+    .merchant_detail_desc h3 {
+        font-size: 14px;
+        margin-top: 2px;
+        max-width: 120px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .merchant_detail_desc h3 {
+        font-size: 13px;
+        margin-top: 2px;
+        max-width: 90px;
+    }
+}
+/*----end of 320----*/

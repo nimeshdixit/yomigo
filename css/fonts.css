@@ -1,0 +1,50 @@
+﻿
+@import url('font-awesome.min.css');
+@import url('fonts.css');
+
+
+
+
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('../fonts/Rubik/Rubik/Rubik-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../fonts/Rubik/Rubik/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Italic';
+    src: url('../fonts/Rubik/Rubik/Rubik-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../fonts/Rubik/Rubik/Rubik-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('../fonts/Rubik/Rubik/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik/Rubik/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../fonts/Quicksand/Quicksand/Quicksand-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../fonts/Quicksand/Quicksand/Quicksand-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('../fonts/Quicksand/Quicksand/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../fonts/Quicksand/Quicksand/Quicksand-Regular.ttf') format('truetype');
+}

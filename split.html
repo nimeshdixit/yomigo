@@ -1,0 +1,724 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>CHECKOUT | YOMIGO</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ng_responsive_tables.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header_left">
+                <a href="index.html" class="logo_img"><img src="img/yomigo_logo.png" alt="" /></a> <a href="javascript:void(0);" class="nav_menu_text">MERCHANTS</a>
+                <a class="toggle_menu"> <span></span> <span></span> <span></span> </a>
+            </div>
+            <div class="header_right">
+                <ul>
+                    <li> <a href="javascript:void(0);">MERCHANTS</a> </li>
+                    <li> <a href="javascript:void(0);">SIGN UP</a> </li>
+                    <li class="login">
+                        <a href="javascrit:void(0);" class="h_btn_login" data-toggle="modal" data-target="#exampleModal">log Out</a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Top content -->
+
+    <div class="top-content" id="split">
+        <div class="container">
+            <div class="form-box">
+                <form role="form" action="" method="post" class="f1" novalidate>
+                    <fieldset class="step-2">
+                        <div class="login_main split-table">
+                            <div class="row" id="main_paymenty_box">
+
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="esc_product">
+                                        <div class="esc_pro_merchant_details">
+                                            <div class="merchant_detail_img"><img src="img/header_img-1.jpg" alt="" class="img-responsive" id="main_head_img"></div>
+                                            <div class="merchant_detail_desc">
+                                                <p>Merchant:</p>
+                                                <h3>Amazing Escape Room Staten</h3>
+                                            </div>
+                                        </div>
+                                        <div class="esc_pro_details">
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/note-1.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Game:  The Diamond Mine</p>
+                                                </div>
+                                            </div>
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/note-1.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Total people in booking:  4</p>
+                                                </div>
+                                            </div>
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/calander-icon.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Booking date:  July 10, 2018</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/clock_icon_1.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Booking time:  10:15am</p>
+                                                </div>
+                                            </div>
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/users.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Adult price: $28.20</p>
+                                                </div>
+                                            </div>
+                                            <div class="pro_details">
+                                                <div class="merchant_detail_img"><img src="img/coin_icon_1.png" alt="" class="img-responsive_game_icon"></div>
+                                                <div class="merchant_detail_desc">
+                                                    <p>Booking subtotal: $112.80</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-8 col-md-8 col-sm-8 display_right">
+                                    <div class="">
+                                        <div class="page_title_content">
+                                            <h6>Truesplit Panel</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="login_form split-table">
+                                        <div class="table_scroll_ymi" id="table_scroll_ymi">
+                                            <table class="trusplit-table responsive" style="display:inline-table">
+                                                <thead>
+                                                    <tr class="header_row">
+                                                        <th class="cl1">Name</th>
+                                                        <th class="cl2">Email</th>
+                                                        <th class="cl3">Amount paying</th>
+                                                        <th class="cl4">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></th>
+                                                        <th class="cl5">Total</th>
+                                                        <th class="cl6"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="trusplitbody">
+                                                    <tr>
+                                                        <td class="cl1"><span class="taxspan">Name:</span> John</td>
+                                                        <td class="cl2"><span class="taxspan">Email:</span> john.deo@gmail.com</td>
+                                                        <td class="cl3"><span class="taxspan">Ammount paying:</span> 56.40 </td>
+                                                        <td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td>
+                                                        <td class="cl5"><span class="totalspan">Total</span>$58.90</td>
+                                                        <td class="cl6">
+                                                            <div class="btn_filter text-right checkout_back_btn">
+                                                                <button type="button" class="btn_checkout_done">Done</button>
+                                                                <button type="button" class="btn_edit" data-toggle="modal" data-target="#splitmodal">Edit</button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cl1"><span class="taxspan">Name:</span> John</td>
+                                                        <td class="cl2"><span class="taxspan">Email:</span> john.deo@gmail.com</td>
+                                                        <td class="cl3"><span class="taxspan">Ammount paying:</span> 56.40 </td>
+                                                        <td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td>
+                                                        <td class="cl5"><span class="totalspan">Total</span>$58.90</td>
+                                                        <td class="cl6">
+                                                            <div class="btn_filter text-right checkout_back_btn">
+                                                                <button type="button" class="btn_checkout_done">Done</button>
+                                                                <button type="button" class="btn_edit" data-toggle="modal" data-target="#splitmodal">Edit</button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <div class="modal fade" id="instantmodal" role="dialog">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--
+                                            <div class="table_scroll_ymi1">
+                                                <table class="trusplit-table responsive" id="customFields1" style="display:inline-table">
+
+                                                    <tr class="number-row textboxrow">
+                                                        <td class="name_add"><input type="text" class="code" id="customFieldName" name="customFieldName[]" value="" placeholder="name" /></td>
+                                                        <td class="email_add"><input type="email" pattern="[0-9]*" class="code" id="customFieldEmail" name="customFieldEmail[]" value="" placeholder="Email Address" /></td>
+                                                        <td class="ammount_add"><input type="text" class="ammount splitinput" id="customFieldValue" name="customFieldValue[]" value="" placeholder="0" /> </td>
+                                                        <td class="tax_add"><div class="td-text"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</div></td>
+                                                        <td><div class="td-text"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></div></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        -->
+                                        <!--<div class="table-extra-content" style="display:none;">
+                                            <div class="total_price_table">
+                                                <div class="add-btn-table">
+                                                    <a class="addCF-split">Add Member</a>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                        <!-- Seel All view List callapse
+                                            <div class="text-center mt-4">
+                                                <a class="" data-toggle="collapse" data-target="#seeview"></a>
+                                            </div>
+                                            <div class="text-center mt-4">
+                                                <a class="" data-toggle="collapse" data-target="#seeview"></a>
+                                            </div>
+                                        -->
+
+                                        <div class="text-center">
+                                            <div class="Button_split_new">
+                                                <button href="javascrit:void(0);" class="Split_btn" data-toggle="modal" data-target="#splitmodal">Would you like to split?</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="login_form paymenttable" id="discount_new_row">
+                                        <div class="checkout_box">
+
+                                            <div class="row checkout">
+                                                <div class="col-lg-3 col-md-3 col-sm-12 text-left">
+                                                    <div class="payment_disc">
+                                                        <h5>DISCOUNT CODE</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+                                                    <div class="payment_cont">
+                                                        <div class="form-group row form_space" id="responsive_group">
+                                                            <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name">Code :</label>
+                                                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                                <input type="password" class="form-control form_text_box" placeholder="***">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-left">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="text-center">
+                                                <div class="Button_split_new">
+                                                    <button href="javascrit:void(0);" class="discount_btn">Add Discount</button>
+                                                </div>
+                                            </div>
+
+                                            <hr class="border">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- CheckOT Payment Now Box -->
+
+                                <section class="payment" id="checkout_payment">
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 payment_main">
+                                        <div class="">
+                                            <div class="page_title_content">
+                                                <h6>Pay Ammount Due</h6>
+                                            </div>
+                                        </div>
+                                        <div class="login_form paymenttable">
+                                            <div class="checkout_box">
+                                                <div class="row checkout">
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-6 text-left">
+                                                        <div class="payment_disc">
+                                                            <h5>PERSONAL DETAIL</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-6 text-left">
+                                                        <div class="payment_cont">
+                                                            <div class="form-group row form_space" id="responsive_group" style="margin-bottom:0px;">
+                                                                <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name">Name:</label>
+                                                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+                                                                    <h5 class="name_detail_checkbox" id="name_detail">John</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row form_space" id="responsive_group" style="margin-bottom:5px;">
+                                                                <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name">Email :</label>
+                                                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                                    <h5 class="name_detail_checkbox">John.doe@gmail.com</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-left">
+                                                    </div>
+                                                </div>
+
+
+                                                <hr class="border" />
+
+                                                <div class="row checkout">
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 text-left">
+                                                        <div class="payment_disc">
+                                                            <h5>CREDIT CARD DETAILS</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+                                                        <div class="payment_cont">
+                                                            <div class="form-group row form_space" id="responsive_group">
+                                                                <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name" id="reasponsive_cardnumner">Card NUmber:</label>
+                                                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                                    <input type="text" class="form-control form_text_box" id="text_input" placeholder="5226">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row form_space" id="responsive_group">
+                                                                <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name">CVC Code :</label>
+                                                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                                                    <input type="password" class="form-control form_text_box" placeholder="***">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row form_space" id="responsive_group">
+                                                                <label for="inputpassword" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-label detail_name" id="reasponsive_cardnumner">Expiry date :</label>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 exp_date">
+                                                                    <select class="form-control" id="exampleformcontrolselect1" style="font-size:12px; padding-left:3px;">
+                                                                        <option>Months</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 exp_date">
+                                                                    <select class="form-control" id="exampleformcontrolselect2" style="font-size:12px; padding-left:3px;">
+                                                                        <option>Year</option>
+                                                                        <option>2010</option>
+                                                                        <option>2011</option>
+                                                                        <option>2012</option>
+                                                                        <option>2013</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-left">
+                                                        <img src="img/visa.png" class="visa_img" />
+                                                    </div>
+                                                </div>
+
+                                                <hr class="border" />
+
+                                                <div class="row checkout">
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 text-left">
+                                                        <div class="payment_disc">
+                                                            <h5>TOTAL AMMOUNT</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 text-left">
+
+                                                        <div class="payment_cont">
+                                                            <div class="form-group row name_form form_space" id="ammounts_box">
+                                                                <label for="inputpassword" class="col-lg-5 col-md-5 col-sm-6 col-form-label detail_name"><strong class="">$58.90</strong></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-left"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="pay_box">
+                                            <div class="pay_content">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="pop_contant" id="last_box_pay_content">
+                                                            <p>
+                                                                1. You will be charged $58.90 on this card in order to hold the reservation
+                                                            </p>
+                                                            <p>
+                                                                2. All payments must be completed by July 8, 2018
+                                                            </p>
+                                                            <p>
+                                                                3. Booking will be canceled if not paid in full by July 8, 2018
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row checkout">
+                                                    <div class="btn-group pop_btn" role="group" aria-label="Basic example" style="margin-top:0px !important;">
+                                                        <button type="button" class="btn btn-payment">Paynow</button>
+                                                        <button type="button" class="btn btn-backpayment" onclick="window.location.href = 'index.html'"><i class="fa fa-angle-left"></i> Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="right_footer">2018 © All right reserved.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 text-center">
+                    <i class="fa fa-facebook-f" style="margin-right:12px;"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12">
+                    <p class="footer_terms">
+                        <a>FAQ |</a>
+                        <a>About Us |</a>
+                        <a>Contact Us |</a>
+                        <a>Privacy Policy |</a>
+                        <a>Terms Of Service </a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Login -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:100px; padding-right:0px !important;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title log_in_title" id="myModalLabel">Login to your Yomigo account</h4>
+                </div>
+
+
+                <div class="modal-body log_in">
+                    <form class="">
+                        <div class="form_content">
+                            <div class="form-group">
+                                <label class="form_label_log_in">Email<span>*</span></label>
+                                <input type="email" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Password<span>*</span></label>
+                                <input type="password" class="form-control control">
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="coustom_cb" id="c50_cb1">
+                                <label class="form_label_log_in lable_border" for="c50_cb1">Keep me logged in</label>
+                            </div>
+                            <div class="form-group btn_grp">
+                                <button class="btn_login">Login</button>
+                                <!--<button class="btn_register" data-toggle="modal" data-target="#exampleModal1">register</button>-->
+
+                                <a href="javascript:void(0);" class="forgot_pwd_link">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Split Modal -->
+
+    <div class="modal fade" id="splitmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:100px; padding-right:0px !important;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!--
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title log_in_title" id="myModalLabel">Login to your Yomigo account</h4>
+                    </div>
+                -->
+
+                <div class="modal-body log_in">
+                    <form class="">
+                        <div class="form_content">
+                            <div class="form-group">
+                                <label class="form_label_log_in">First Name<span>*</span></label>
+                                <input type="text" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Last Name<span>*</span></label>
+                                <input type="text" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Email<span>*</span></label>
+                                <input type="email" class="form-control control">
+                            </div>
+                            <div class="form-group">
+                                <label for="c50_cb1">Qty</label>
+                                <div class="Selector">
+                                    <select class="form-control" id="c50_cb1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form_label_log_in">Ammount<span>*</span></label>
+                                <input type="number" class="form-control control">
+                            </div>
+                            <div class="form-group btn_grp">
+                                <button class="btn_login">Add</button>
+                                <button type="button" class="btn_login" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+                -->
+
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        // responsive table
+        $(function () {
+            $('table.responsive').ngResponsiveTables();
+        });
+    </script>
+
+    <script src="js/ng_responsive_tables.js" type="text/javascript"></script>
+    <script src="js/jquery.backstretch.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+
+
+
+
+    <script>
+
+
+
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+            $('.toggle_menu').click(function () {
+                $('.header_right').slideToggle();
+            });
+
+
+            $('.addCF-split').on('click', function () {
+                //$('.btn_edit').css('display', 'none');
+                //$('.btn_back').css('display', 'block');
+                //$('.btn_checkout_done').css('display', 'block');
+                //  $('.see_all_view').css('display', 'none');
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'block');
+                    $('.cl4').css('display', 'block');
+                    $('.cl5').css('display', 'block');
+                    $('.taxspan').css('display', 'block');
+                    $('.resclosetd').remove();
+                    $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+                    $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose"></a></td>');
+                }
+                else {
+                    $('.resclosetd').remove();
+                }
+            });
+
+            //$('.btn-no_pop').on('click', function () {
+            //    $('#myModal').modal('hide');
+            //    $('.table-extra-content').css('display', 'none');
+            //    $('#checkout_payment').css('display', 'block');
+            //    $('.btn_edit').css('display', 'block');
+            //    $('.btn_back').css('display', 'none');
+            //    $('.btn_checkout_done').css('display', 'none');
+            //    $('.see_less_view').css('display', 'none');
+            //    $('.see_all_view').css('display', 'none');
+            //    $('#table_scroll_ymi .trusplit-table').removeClass('responsive');
+            //    $('.trusplit-table.responsive').css('display', 'none');
+            //    goToByScroll('checkout_payment');
+
+            //    if ($(window).width() < 767) {
+            //        $('.cl2').css('display', 'none');
+            //        $('.cl4').css('display', 'none');
+            //        $('.cl5').css('display', 'none');
+            //        $('.taxspan').css('display', 'none');
+
+            //    }
+            //});
+
+
+
+            //$('.btn-yes_pop').on('click', function () {
+            //    $('#myModal').modal('hide');
+            //    $('#checkout_payment').css('display', 'none');
+            //    $('.see_less_view').css('display', 'none');
+            //    $('.see_all_view').css('display', 'none');
+            //    $('.btn_edit').css('display', 'none');
+            //    $('.btn_back').css('display', 'block');
+            //    $('.btn_checkout_done').css('display', 'block');
+            //    $('.table-extra-content').css('display', 'block');
+            //    $('.labletext').css('display', 'none');
+            //    $('.ammount').css('display', 'block');
+            //    $('.trusplit-table.responsive').css('display', 'inline-table');
+            //    goToByScroll('table_scroll_ymi');
+            //    $('#table_scroll_ymi .trusplit-table').addClass('responsive');
+            //    if ($(window).width() < 767) {
+            //        $('.cl2').css('display', 'block');
+            //        $('.cl4').css('display', 'block');
+            //        $('.cl5').css('display', 'block');
+            //        $('.taxspan').css('display', 'block');
+            //        $('.resclosetd').remove();
+            //        $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+            //        $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose"></a></td>');
+            //    }
+            //    else {
+            //        $('.resclosetd').remove();
+            //    }
+
+            //});
+
+
+            $('.btn_checkout_done').on('click', function () {
+                $('.textboxrow').css('display', 'none');
+                $('#checkout_payment').css('display', 'block');
+                $('.btn_edit').css('display', 'block');
+                $('.btn_back').css('display', 'none');
+                $('.btn_checkout_done').css('display', 'none');
+                $('.table-extra-content').css('display', 'none');
+                goToByScroll('table_scroll_ymi');
+                $('#table_scroll_ymi .trusplit-table').removeClass('responsive');
+
+                //if ($('#table_scroll_ymi .trusplit-table .coltoggle:visible').length == 0) {
+                //    $('.trusplitbody').append('<tr class="add_tr coltoggle"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /> </td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                //    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                //    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+
+                //}
+                //else {
+                //    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                //    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                //    $('.trusplitbody').append('<tr class="add_tr"><td class="cl1"><span class="labletext">John</span><input type="text" class="splitinput code" name="customFieldName[]" value="" placeholder="name" /></td><td class="cl2"><span class="labletext">john.deo@gmail.com</span><input type="email" pattern="[0-9]*" class="code splitinput" name="customFieldEmail[]" value="" placeholder="Email Address" /> </td><td class="cl3"><span class="labletext">$56.40</span> <input type="text" class="ammount splitinput" name="customFieldValue[]" value="" placeholder="0" style="display:none;" /> </td><td class="cl4"><span class="taxspan">Taxes & fees <i class="fa fa-question-circle" data-toggle="modal" data-target="#instantmodal"></i></span>$2.50</td><td class="cl5"><span class="totalspan">Total</span>$58.90 <a href="javascript:void(0);" class="remCF"></a></td>');
+                //}
+                $('.labletext').css('display', 'block');
+
+                if ($(window).width() < 767) {
+                    $('.cl2').css('display', 'none');
+                    $('.cl4').css('display', 'none');
+                    $('.cl5').css('display', 'none');
+                    $('.taxspan').css('display', 'none');
+                    $('.resclosetd').remove();
+
+                }
+
+                $('.splitinput').css('display', 'none');
+                $('.remCF').css('display', 'none');
+
+                $('.see_all_view').css('display', 'block');
+                $('.coltoggle').nextUntil('tr.coltoggle').slideToggle(100, function () {
+                });
+                $('.trusplit-table').css('display', 'inline-table');
+
+            });
+            //$('.btn_edit').on('click', function () {
+
+            //    if ($('.see_all_view:visible').length == 0) {
+
+            //    }
+            //    else {
+            //        $('.coltoggle').nextUntil('tr.coltoggle').slideToggle(100, function () {
+            //        });
+            //    }
+            //    $('.table-extra-content').css('display', 'block');
+            //    $('#checkout_payment').css('display', 'none');
+
+            //    $('.btn_checkout_done').css('display', 'block');
+            //    $('.btn_edit').css('display', 'none');
+            //    $('.btn_back').css('display', 'block');
+            //    $('.trusplit-table.responsive').css('display', 'inline-table');
+            //    $('.textboxrow').css('display', 'block');
+            //    $('.labletext').css('display', 'none');
+            //    $('.splitinput').css('display', 'block');
+            //    $('.see_less_view').css('display', 'none');
+            //    $('.see_all_view').css('display', 'none');
+            //    $('.remCF').css('display', 'unset');
+            //    $('#table_scroll_ymi .trusplit-table').addClass('responsive');
+            //    if ($(window).width() < 767) {
+            //        $('.cl2').css('display', 'block');
+            //        $('.cl4').css('display', 'block');
+            //        $('.cl5').css('display', 'block');
+            //        $('.taxspan').css('display', 'block');
+            //        $('.remCF').css('display', 'none');
+            //        $('.resclose').css('display', 'unset');
+            //        $('.resclosetd').remove();
+            //        $('.number-row.textboxrow').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+            //        $('.add_tr').prepend('<td class="resclosetd"><a href="javascript:void(0);" class="resclose" style="display: block;"></a></td>');
+            //    }
+            //    else {
+            //        $('.resclosetd').remove();
+            //    }
+            //});
+
+
+
+
+        });
+
+
+        function goToByScroll(id) {
+            // Remove "link" from the ID
+            id = id.replace("link", "");
+            // Scroll
+            $('html,body').animate({
+                scrollTop: $("#" + id).offset().top - 150
+            }, 'slow');
+        }
+    </script>
+
+</body>
+
+
+
+
+
+
+</html>
